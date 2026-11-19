@@ -1,0 +1,102 @@
+{
+ "selected": [
+  {
+   "variant": "prediction_error_calls10",
+   "target_calls": 10,
+   "kind": "prediction_error",
+   "threshold": null,
+   "source_variant": "fixed_k15",
+   "reproduces_k15": true,
+   "validation_success": 107,
+   "validation_mean_calls": 10.0
+  },
+  {
+   "variant": "prediction_error_calls15",
+   "target_calls": 15,
+   "kind": "prediction_error",
+   "threshold": 3.0,
+   "source_variant": "prediction_error_3",
+   "reproduces_k15": false,
+   "validation_success": 110,
+   "validation_mean_calls": 15.191666666666666
+  },
+  {
+   "variant": "prediction_error_calls19",
+   "target_calls": 19,
+   "kind": "prediction_error",
+   "threshold": 2.0,
+   "source_variant": "prediction_error_2",
+   "reproduces_k15": false,
+   "validation_success": 106,
+   "validation_mean_calls": 18.125
+  },
+  {
+   "variant": "acceleration_calls10",
+   "target_calls": 10,
+   "kind": "acceleration",
+   "threshold": null,
+   "source_variant": "fixed_k15",
+   "reproduces_k15": true,
+   "validation_success": 107,
+   "validation_mean_calls": 10.0
+  },
+  {
+   "variant": "acceleration_calls15",
+   "target_calls": 15,
+   "kind": "acceleration",
+   "threshold": 0.0015,
+   "source_variant": "acceleration_0.0015",
+   "reproduces_k15": false,
+   "validation_success": 111,
+   "validation_mean_calls": 14.125
+  },
+  {
+   "variant": "acceleration_calls19",
+   "target_calls": 19,
+   "kind": "acceleration",
+   "threshold": 0.001,
+   "source_variant": "acceleration_0.001",
+   "reproduces_k15": false,
+   "validation_success": 106,
+   "validation_mean_calls": 20.791666666666668
+  }
+ ],
+ "bands": [
+  {
+   "kind": "prediction_error",
+   "target_calls": 10,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "prediction_error",
+   "target_calls": 15,
+   "matching_candidates": 3
+  },
+  {
+   "kind": "prediction_error",
+   "target_calls": 19,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "acceleration",
+   "target_calls": 10,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "acceleration",
+   "target_calls": 15,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "acceleration",
+   "target_calls": 19,
+   "matching_candidates": 1
+  }
+ ],
+ "rule": "For each trigger and target 10/15/19 calls (fixed K15/K10/K8), require mean calls in [0.9*target, 1.1*target]; minimize mean capped time to goal, then maximize final success, then minimize calls, then prefer disabled/higher threshold. Omit a band if no candidate fits.",
+ "selected_at_utc": "2026-10-29T10:46:29.647929+00:00",
+ "predictor_sha256": "64d1b8ff277bc7914da1619a954a65f069d9307255b2f1af97906766f234079e",
+ "validation_sha256": "61efcbe6a8c2127a80d774c7ad17042ebbddd753d4a5e462961c1e53b2a24cf9",
+ "metadata_sha256": "e054da5581359d1ca504aeecd3054b786ab4e4d4ad91fb99de15c2dede27cd29",
+ "disabled_candidate": "Reuse fixed K15 success and call counts; final test measures monitor overhead directly"
+}

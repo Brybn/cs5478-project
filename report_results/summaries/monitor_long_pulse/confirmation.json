@@ -1,0 +1,2262 @@
+{
+ "complete": true,
+ "plan_sha256": "edab0b22273fe2105b13e932a9e60364dadfe5a1232fc49cf89c66e19e3d4111",
+ "summary": {
+  "fixed_k15": {
+   "episodes": 160,
+   "success_at_end_count": 58,
+   "success_once_count": 59,
+   "ci95": {
+    "success_at_end": [
+     0.325,
+     0.40625
+    ],
+    "success_once": [
+     0.325,
+     0.4125
+    ],
+    "policy_calls": [
+     10.0,
+     10.0
+    ],
+    "inference_seconds": [
+     0.9759396723648819,
+     1.0053722387476547
+    ],
+    "capped_confirmation_seconds": [
+     6.3703125,
+     6.547812500000001
+    ],
+    "capped_recovery_seconds": [
+     5.7046796875000005,
+     5.8859375
+    ],
+    "recovery_confirmed": [
+     0.31875,
+     0.39375
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100": [
+     0.225,
+     0.275
+    ],
+    "last_ten_success": [
+     0.3125,
+     0.3875
+    ],
+    "confirmed_then_failed": [
+     0.0,
+     0.01875
+    ]
+   },
+   "success_at_end": 0.3625,
+   "success_once": 0.36875,
+   "policy_calls": 10.0,
+   "inference_seconds": 0.9901854035395445,
+   "capped_confirmation_seconds": 6.4575000000000005,
+   "capped_recovery_seconds": 5.792812500000001,
+   "recovery_confirmed": 0.35625,
+   "confirmed_by_60": 0.0,
+   "confirmed_by_100": 0.25,
+   "last_ten_success": 0.35,
+   "confirmed_then_failed": 0.00625,
+   "policy_seconds": 0.9901854035395445,
+   "monitor_seconds": 0.0
+  },
+  "fixed_k10": {
+   "episodes": 160,
+   "success_at_end_count": 72,
+   "success_once_count": 72,
+   "ci95": {
+    "success_at_end": [
+     0.39375,
+     0.50625
+    ],
+    "success_once": [
+     0.39375,
+     0.50625
+    ],
+    "policy_calls": [
+     15.0,
+     15.0
+    ],
+    "inference_seconds": [
+     1.4525761111804627,
+     1.4937323479547922
+    ],
+    "capped_confirmation_seconds": [
+     6.251250000000001,
+     6.4543828125000005
+    ],
+    "capped_recovery_seconds": [
+     5.579984375,
+     5.79875
+    ],
+    "recovery_confirmed": [
+     0.375,
+     0.49375
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100": [
+     0.23125,
+     0.26875
+    ],
+    "last_ten_success": [
+     0.375,
+     0.49375
+    ],
+    "confirmed_then_failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "success_at_end": 0.45,
+   "success_once": 0.45,
+   "policy_calls": 15.0,
+   "inference_seconds": 1.4730108146173735,
+   "capped_confirmation_seconds": 6.355625000000001,
+   "capped_recovery_seconds": 5.6909374999999995,
+   "recovery_confirmed": 0.43125,
+   "confirmed_by_60": 0.0,
+   "confirmed_by_100": 0.25,
+   "last_ten_success": 0.43125,
+   "confirmed_then_failed": 0.0,
+   "policy_seconds": 1.4730108146173735,
+   "monitor_seconds": 0.0
+  },
+  "fixed_k8": {
+   "episodes": 160,
+   "success_at_end_count": 65,
+   "success_once_count": 69,
+   "ci95": {
+    "success_at_end": [
+     0.35625,
+     0.45625
+    ],
+    "success_once": [
+     0.38125,
+     0.4875
+    ],
+    "policy_calls": [
+     19.0,
+     19.0
+    ],
+    "inference_seconds": [
+     1.839455899806087,
+     1.892403228699652
+    ],
+    "capped_confirmation_seconds": [
+     6.246875,
+     6.4609453125
+    ],
+    "capped_recovery_seconds": [
+     5.5787421875,
+     5.7962578124999995
+    ],
+    "recovery_confirmed": [
+     0.35625,
+     0.4625
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.03125
+    ],
+    "confirmed_by_100": [
+     0.25625,
+     0.30625
+    ],
+    "last_ten_success": [
+     0.3375,
+     0.4375
+    ],
+    "confirmed_then_failed": [
+     0.0,
+     0.0375
+    ]
+   },
+   "success_at_end": 0.40625,
+   "success_once": 0.43125,
+   "policy_calls": 19.0,
+   "inference_seconds": 1.865286003477013,
+   "capped_confirmation_seconds": 6.356562500000001,
+   "capped_recovery_seconds": 5.6918750000000005,
+   "recovery_confirmed": 0.40625,
+   "confirmed_by_60": 0.0125,
+   "confirmed_by_100": 0.28125,
+   "last_ten_success": 0.3875,
+   "confirmed_then_failed": 0.01875,
+   "policy_seconds": 1.865286003477013,
+   "monitor_seconds": 0.0
+  },
+  "prediction_error_calls15": {
+   "episodes": 160,
+   "success_at_end_count": 82,
+   "success_once_count": 84,
+   "ci95": {
+    "success_at_end": [
+     0.45,
+     0.575
+    ],
+    "success_once": [
+     0.4625,
+     0.5875
+    ],
+    "policy_calls": [
+     33.6375,
+     36.41890625
+    ],
+    "inference_seconds": [
+     3.3266765308939807,
+     3.5968307710645124
+    ],
+    "capped_confirmation_seconds": [
+     6.0896875,
+     6.342812499999999
+    ],
+    "capped_recovery_seconds": [
+     5.4215625,
+     5.6821874999999995
+    ],
+    "recovery_confirmed": [
+     0.4375,
+     0.55625
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100": [
+     0.28125,
+     0.3625
+    ],
+    "last_ten_success": [
+     0.425,
+     0.54375
+    ],
+    "confirmed_then_failed": [
+     0.0,
+     0.03125
+    ]
+   },
+   "success_at_end": 0.5125,
+   "success_once": 0.525,
+   "policy_calls": 34.99375,
+   "inference_seconds": 3.462423511706129,
+   "capped_confirmation_seconds": 6.2203125,
+   "capped_recovery_seconds": 5.555625,
+   "recovery_confirmed": 0.49375,
+   "confirmed_by_60": 0.0,
+   "confirmed_by_100": 0.31875,
+   "last_ten_success": 0.48125,
+   "confirmed_then_failed": 0.0125,
+   "policy_seconds": 3.40385450183976,
+   "monitor_seconds": 0.058569009866369016
+  },
+  "prediction_error_calls19": {
+   "episodes": 160,
+   "success_at_end_count": 84,
+   "success_once_count": 84,
+   "ci95": {
+    "success_at_end": [
+     0.46875,
+     0.58125
+    ],
+    "success_once": [
+     0.46875,
+     0.58125
+    ],
+    "policy_calls": [
+     39.67484375,
+     42.21875
+    ],
+    "inference_seconds": [
+     3.9165017772122495,
+     4.191457623009587
+    ],
+    "capped_confirmation_seconds": [
+     6.096875,
+     6.334375
+    ],
+    "capped_recovery_seconds": [
+     5.441539062499999,
+     5.6603125
+    ],
+    "recovery_confirmed": [
+     0.4375,
+     0.55
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100": [
+     0.275,
+     0.3375
+    ],
+    "last_ten_success": [
+     0.43125,
+     0.54375
+    ],
+    "confirmed_then_failed": [
+     0.0,
+     0.0
+    ]
+   },
+   "success_at_end": 0.525,
+   "success_once": 0.525,
+   "policy_calls": 40.94375,
+   "inference_seconds": 4.054698099869074,
+   "capped_confirmation_seconds": 6.21875,
+   "capped_recovery_seconds": 5.5540625,
+   "recovery_confirmed": 0.49375,
+   "confirmed_by_60": 0.0,
+   "confirmed_by_100": 0.30625,
+   "last_ten_success": 0.4875,
+   "confirmed_then_failed": 0.0,
+   "policy_seconds": 3.995920344129627,
+   "monitor_seconds": 0.058777755739447456
+  },
+  "acceleration_calls15": {
+   "episodes": 160,
+   "success_at_end_count": 72,
+   "success_once_count": 75,
+   "ci95": {
+    "success_at_end": [
+     0.39375,
+     0.5125
+    ],
+    "success_once": [
+     0.4125,
+     0.53125
+    ],
+    "policy_calls": [
+     16.41234375,
+     17.3375
+    ],
+    "inference_seconds": [
+     1.6115892594315346,
+     1.7129306957877135
+    ],
+    "capped_confirmation_seconds": [
+     6.086250000000001,
+     6.378765625
+    ],
+    "capped_recovery_seconds": [
+     5.4265625,
+     5.711875000000001
+    ],
+    "recovery_confirmed": [
+     0.4,
+     0.51875
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100": [
+     0.275,
+     0.35
+    ],
+    "last_ten_success": [
+     0.36875,
+     0.49375
+    ],
+    "confirmed_then_failed": [
+     0.0,
+     0.03125
+    ]
+   },
+   "success_at_end": 0.45,
+   "success_once": 0.46875,
+   "policy_calls": 16.8625,
+   "inference_seconds": 1.6614100485536256,
+   "capped_confirmation_seconds": 6.2378125,
+   "capped_recovery_seconds": 5.573125,
+   "recovery_confirmed": 0.45625,
+   "confirmed_by_60": 0.0,
+   "confirmed_by_100": 0.3125,
+   "last_ten_success": 0.43125,
+   "confirmed_then_failed": 0.0125,
+   "policy_seconds": 1.6565748220873502,
+   "monitor_seconds": 0.0048352264662753445
+  },
+  "acceleration_calls19": {
+   "episodes": 160,
+   "success_at_end_count": 72,
+   "success_once_count": 73,
+   "ci95": {
+    "success_at_end": [
+     0.39375,
+     0.5125
+    ],
+    "success_once": [
+     0.4,
+     0.51875
+    ],
+    "policy_calls": [
+     19.60625,
+     21.25625
+    ],
+    "inference_seconds": [
+     1.9227671903036616,
+     2.1062885407409775
+    ],
+    "capped_confirmation_seconds": [
+     6.1115546875,
+     6.4046953124999995
+    ],
+    "capped_recovery_seconds": [
+     5.4531171875,
+     5.7343828125
+    ],
+    "recovery_confirmed": [
+     0.38125,
+     0.5
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100": [
+     0.275,
+     0.35
+    ],
+    "last_ten_success": [
+     0.375,
+     0.49375
+    ],
+    "confirmed_then_failed": [
+     0.0,
+     0.01875
+    ]
+   },
+   "success_at_end": 0.45,
+   "success_once": 0.45625,
+   "policy_calls": 20.43125,
+   "inference_seconds": 2.012647285374169,
+   "capped_confirmation_seconds": 6.26375,
+   "capped_recovery_seconds": 5.5990625,
+   "recovery_confirmed": 0.4375,
+   "confirmed_by_60": 0.0,
+   "confirmed_by_100": 0.3125,
+   "last_ten_success": 0.43125,
+   "confirmed_then_failed": 0.00625,
+   "policy_seconds": 2.0076663165955324,
+   "monitor_seconds": 0.004980968778636452
+  },
+  "random_control": {
+   "episodes": 160,
+   "success_at_end_count": 65,
+   "success_once_count": 66,
+   "ci95": {
+    "success_at_end": [
+     0.35625,
+     0.4625
+    ],
+    "success_once": [
+     0.3625,
+     0.46875
+    ],
+    "policy_calls": [
+     13.45,
+     14.04375
+    ],
+    "inference_seconds": [
+     1.3194495999648916,
+     1.3876010896231081
+    ],
+    "capped_confirmation_seconds": [
+     6.2940546875,
+     6.509062499999999
+    ],
+    "capped_recovery_seconds": [
+     5.6403125,
+     5.8403125000000005
+    ],
+    "recovery_confirmed": [
+     0.34375,
+     0.45
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100": [
+     0.2375,
+     0.28125
+    ],
+    "last_ten_success": [
+     0.3375,
+     0.44375
+    ],
+    "confirmed_then_failed": [
+     0.0,
+     0.01875
+    ]
+   },
+   "success_at_end": 0.40625,
+   "success_once": 0.4125,
+   "policy_calls": 13.73125,
+   "inference_seconds": 1.3525605059003283,
+   "capped_confirmation_seconds": 6.4084375,
+   "capped_recovery_seconds": 5.74375,
+   "recovery_confirmed": 0.39375,
+   "confirmed_by_60": 0.0,
+   "confirmed_by_100": 0.25625,
+   "last_ten_success": 0.3875,
+   "confirmed_then_failed": 0.00625,
+   "policy_seconds": 1.3498443170953578,
+   "monitor_seconds": 0.002716188804970443
+  }
+ },
+ "paired_vs_k15": {
+  "fixed_k10": {
+   "wins": 22,
+   "losses": 8,
+   "ties": 130,
+   "ci95": {
+    "success_at_end_difference": [
+     0.025,
+     0.15
+    ],
+    "success_once_difference": [
+     0.01875,
+     0.14375
+    ],
+    "policy_calls_difference": [
+     5.0,
+     5.0
+    ],
+    "inference_seconds_difference": [
+     0.4734296964292253,
+     0.49229836777221636
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.21468749999999998,
+     0.015937499999999973
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.2146875,
+     0.015937499999999983
+    ],
+    "recovery_confirmed_difference": [
+     0.0125,
+     0.1375
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     -0.025,
+     0.025
+    ],
+    "last_ten_success_difference": [
+     0.0125,
+     0.14375
+    ],
+    "confirmed_then_failed_difference": [
+     -0.01875,
+     0.0
+    ]
+   },
+   "success_at_end_difference": 0.0875,
+   "success_once_difference": 0.08125,
+   "policy_calls_difference": 5.0,
+   "inference_seconds_difference": 0.4828254110778289,
+   "capped_confirmation_seconds_difference": -0.10187499999999998,
+   "capped_recovery_seconds_difference": -0.10187500000000001,
+   "recovery_confirmed_difference": 0.075,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.0,
+   "last_ten_success_difference": 0.08125,
+   "confirmed_then_failed_difference": -0.00625
+  },
+  "fixed_k8": {
+   "wins": 18,
+   "losses": 11,
+   "ties": 131,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.0125,
+     0.1
+    ],
+    "success_once_difference": [
+     0.0,
+     0.11875
+    ],
+    "policy_calls_difference": [
+     9.0,
+     9.0
+    ],
+    "inference_seconds_difference": [
+     0.8618902260163555,
+     0.8889621087221713
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.20718750000000002,
+     0.007195312499999902
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.20718749999999994,
+     0.007195312499999897
+    ],
+    "recovery_confirmed_difference": [
+     -0.00625,
+     0.10625
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.03125
+    ],
+    "confirmed_by_100_difference": [
+     0.00625,
+     0.05625
+    ],
+    "last_ten_success_difference": [
+     -0.0125,
+     0.0875
+    ],
+    "confirmed_then_failed_difference": [
+     -0.0125,
+     0.0375
+    ]
+   },
+   "success_at_end_difference": 0.04375,
+   "success_once_difference": 0.0625,
+   "policy_calls_difference": 9.0,
+   "inference_seconds_difference": 0.8751005999374684,
+   "capped_confirmation_seconds_difference": -0.10093749999999999,
+   "capped_recovery_seconds_difference": -0.10093749999999999,
+   "recovery_confirmed_difference": 0.05,
+   "confirmed_by_60_difference": 0.0125,
+   "confirmed_by_100_difference": 0.03125,
+   "last_ten_success_difference": 0.0375,
+   "confirmed_then_failed_difference": 0.0125
+  },
+  "prediction_error_calls15": {
+   "wins": 27,
+   "losses": 3,
+   "ties": 130,
+   "ci95": {
+    "success_at_end_difference": [
+     0.09375,
+     0.20625
+    ],
+    "success_once_difference": [
+     0.10625,
+     0.2125
+    ],
+    "policy_calls_difference": [
+     23.6375,
+     26.418906249999996
+    ],
+    "inference_seconds_difference": [
+     2.3412317654724464,
+     2.603933835504006
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.34907031250000004,
+     -0.1253046875000001
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.3490703125,
+     -0.1253046875000001
+    ],
+    "recovery_confirmed_difference": [
+     0.08125,
+     0.19375
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.03125,
+     0.1125
+    ],
+    "last_ten_success_difference": [
+     0.075,
+     0.1875
+    ],
+    "confirmed_then_failed_difference": [
+     -0.0125,
+     0.03125
+    ]
+   },
+   "success_at_end_difference": 0.15,
+   "success_once_difference": 0.15625,
+   "policy_calls_difference": 24.99375,
+   "inference_seconds_difference": 2.4722381081665845,
+   "capped_confirmation_seconds_difference": -0.23718750000000002,
+   "capped_recovery_seconds_difference": -0.23718749999999997,
+   "recovery_confirmed_difference": 0.1375,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.06875,
+   "last_ten_success_difference": 0.13125,
+   "confirmed_then_failed_difference": 0.00625
+  },
+  "prediction_error_calls19": {
+   "wins": 28,
+   "losses": 2,
+   "ties": 130,
+   "ci95": {
+    "success_at_end_difference": [
+     0.10625,
+     0.21875
+    ],
+    "success_once_difference": [
+     0.1,
+     0.2125
+    ],
+    "policy_calls_difference": [
+     29.67484375,
+     32.21875
+    ],
+    "inference_seconds_difference": [
+     2.932029395020763,
+     3.196134697082864
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.3525,
+     -0.1275
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.3524999999999999,
+     -0.1275
+    ],
+    "recovery_confirmed_difference": [
+     0.08125,
+     0.19375
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.025,
+     0.0875
+    ],
+    "last_ten_success_difference": [
+     0.08125,
+     0.19375
+    ],
+    "confirmed_then_failed_difference": [
+     -0.01875,
+     0.0
+    ]
+   },
+   "success_at_end_difference": 0.1625,
+   "success_once_difference": 0.15625,
+   "policy_calls_difference": 30.94375,
+   "inference_seconds_difference": 3.0645126963295297,
+   "capped_confirmation_seconds_difference": -0.23875000000000002,
+   "capped_recovery_seconds_difference": -0.23875000000000002,
+   "recovery_confirmed_difference": 0.1375,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.05625,
+   "last_ten_success_difference": 0.1375,
+   "confirmed_then_failed_difference": -0.00625
+  },
+  "acceleration_calls15": {
+   "wins": 16,
+   "losses": 2,
+   "ties": 142,
+   "ci95": {
+    "success_at_end_difference": [
+     0.04375,
+     0.13125
+    ],
+    "success_once_difference": [
+     0.05625,
+     0.14375
+    ],
+    "policy_calls_difference": [
+     6.41234375,
+     7.3375
+    ],
+    "inference_seconds_difference": [
+     0.6263046694864807,
+     0.7183562383289132
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.3409453125,
+     -0.10218750000000003
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.3409453125,
+     -0.10218750000000003
+    ],
+    "recovery_confirmed_difference": [
+     0.04375,
+     0.15625
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.03125,
+     0.1
+    ],
+    "last_ten_success_difference": [
+     0.03125,
+     0.1375
+    ],
+    "confirmed_then_failed_difference": [
+     -0.0125,
+     0.025
+    ]
+   },
+   "success_at_end_difference": 0.0875,
+   "success_once_difference": 0.1,
+   "policy_calls_difference": 6.8625,
+   "inference_seconds_difference": 0.6712246450140811,
+   "capped_confirmation_seconds_difference": -0.21968750000000004,
+   "capped_recovery_seconds_difference": -0.21968750000000004,
+   "recovery_confirmed_difference": 0.1,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.0625,
+   "last_ten_success_difference": 0.08125,
+   "confirmed_then_failed_difference": 0.00625
+  },
+  "acceleration_calls19": {
+   "wins": 16,
+   "losses": 2,
+   "ties": 142,
+   "ci95": {
+    "success_at_end_difference": [
+     0.04375,
+     0.1375
+    ],
+    "success_once_difference": [
+     0.04375,
+     0.1375
+    ],
+    "policy_calls_difference": [
+     9.60625,
+     11.25625
+    ],
+    "inference_seconds_difference": [
+     0.9364775484755251,
+     1.1111218590937413
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.3197109375,
+     -0.0753125
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.3197109375,
+     -0.07531250000000002
+    ],
+    "recovery_confirmed_difference": [
+     0.03125,
+     0.1375
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.03125,
+     0.1
+    ],
+    "last_ten_success_difference": [
+     0.03125,
+     0.1375
+    ],
+    "confirmed_then_failed_difference": [
+     -0.01875,
+     0.01875
+    ]
+   },
+   "success_at_end_difference": 0.0875,
+   "success_once_difference": 0.0875,
+   "policy_calls_difference": 10.43125,
+   "inference_seconds_difference": 1.0224618818346243,
+   "capped_confirmation_seconds_difference": -0.19375,
+   "capped_recovery_seconds_difference": -0.19375,
+   "recovery_confirmed_difference": 0.08125,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.0625,
+   "last_ten_success_difference": 0.08125,
+   "confirmed_then_failed_difference": 0.0
+  },
+  "random_control": {
+   "wins": 13,
+   "losses": 6,
+   "ties": 141,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.0125,
+     0.09375
+    ],
+    "success_once_difference": [
+     -0.0125,
+     0.09375
+    ],
+    "policy_calls_difference": [
+     3.45,
+     4.04375
+    ],
+    "inference_seconds_difference": [
+     0.33251336115529057,
+     0.3962858705044573
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.14063281250000004,
+     0.04500781249999989
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.14063281249999998,
+     0.0450078124999999
+    ],
+    "recovery_confirmed_difference": [
+     -0.0125,
+     0.0875
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     -0.01875,
+     0.03125
+    ],
+    "last_ten_success_difference": [
+     -0.0125,
+     0.0875
+    ],
+    "confirmed_then_failed_difference": [
+     0.0,
+     0.0
+    ]
+   },
+   "success_at_end_difference": 0.04375,
+   "success_once_difference": 0.04375,
+   "policy_calls_difference": 3.73125,
+   "inference_seconds_difference": 0.3623751023607838,
+   "capped_confirmation_seconds_difference": -0.049062499999999995,
+   "capped_recovery_seconds_difference": -0.049062499999999995,
+   "recovery_confirmed_difference": 0.0375,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.00625,
+   "last_ten_success_difference": 0.0375,
+   "confirmed_then_failed_difference": 0.0
+  }
+ },
+ "paired_vs_k10": {
+  "fixed_k15": {
+   "wins": 8,
+   "losses": 22,
+   "ties": 130,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.15,
+     -0.025
+    ],
+    "success_once_difference": [
+     -0.14375,
+     -0.01875
+    ],
+    "policy_calls_difference": [
+     -5.0,
+     -5.0
+    ],
+    "inference_seconds_difference": [
+     -0.49229836777221636,
+     -0.4734296964292253
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.015937499999999973,
+     0.21468749999999998
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.015937499999999983,
+     0.2146875
+    ],
+    "recovery_confirmed_difference": [
+     -0.1375,
+     -0.0125
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     -0.025,
+     0.025
+    ],
+    "last_ten_success_difference": [
+     -0.14375,
+     -0.0125
+    ],
+    "confirmed_then_failed_difference": [
+     0.0,
+     0.01875
+    ]
+   },
+   "success_at_end_difference": -0.0875,
+   "success_once_difference": -0.08125,
+   "policy_calls_difference": -5.0,
+   "inference_seconds_difference": -0.4828254110778289,
+   "capped_confirmation_seconds_difference": 0.10187499999999998,
+   "capped_recovery_seconds_difference": 0.10187500000000001,
+   "recovery_confirmed_difference": -0.075,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.0,
+   "last_ten_success_difference": -0.08125,
+   "confirmed_then_failed_difference": 0.00625
+  },
+  "fixed_k8": {
+   "wins": 9,
+   "losses": 16,
+   "ties": 135,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.10625,
+     0.0125
+    ],
+    "success_once_difference": [
+     -0.08125,
+     0.04375
+    ],
+    "policy_calls_difference": [
+     4.0,
+     4.0
+    ],
+    "inference_seconds_difference": [
+     0.38365686931643495,
+     0.4013249593761543
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.108453125,
+     0.1075078124999999
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.108453125,
+     0.10750781249999995
+    ],
+    "recovery_confirmed_difference": [
+     -0.0875,
+     0.0375
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.03125
+    ],
+    "confirmed_by_100_difference": [
+     0.0,
+     0.0625
+    ],
+    "last_ten_success_difference": [
+     -0.10625,
+     0.0125
+    ],
+    "confirmed_then_failed_difference": [
+     0.0,
+     0.0375
+    ]
+   },
+   "success_at_end_difference": -0.04375,
+   "success_once_difference": -0.01875,
+   "policy_calls_difference": 4.0,
+   "inference_seconds_difference": 0.39227518885963947,
+   "capped_confirmation_seconds_difference": 0.0009374999999999855,
+   "capped_recovery_seconds_difference": 0.0009375000000000133,
+   "recovery_confirmed_difference": -0.025,
+   "confirmed_by_60_difference": 0.0125,
+   "confirmed_by_100_difference": 0.03125,
+   "last_ten_success_difference": -0.04375,
+   "confirmed_then_failed_difference": 0.01875
+  },
+  "prediction_error_calls15": {
+   "wins": 18,
+   "losses": 8,
+   "ties": 134,
+   "ci95": {
+    "success_at_end_difference": [
+     0.0,
+     0.125
+    ],
+    "success_once_difference": [
+     0.0125,
+     0.1375
+    ],
+    "policy_calls_difference": [
+     18.6375,
+     21.418906249999996
+    ],
+    "inference_seconds_difference": [
+     1.8591789975014739,
+     2.1200943813299955
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.2700078125,
+     -0.0050000000000000044
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.2700078125,
+     -0.004999999999999974
+    ],
+    "recovery_confirmed_difference": [
+     0.0,
+     0.125
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.031093750000000052,
+     0.1125
+    ],
+    "last_ten_success_difference": [
+     -0.0125,
+     0.11875
+    ],
+    "confirmed_then_failed_difference": [
+     0.0,
+     0.03125
+    ]
+   },
+   "success_at_end_difference": 0.0625,
+   "success_once_difference": 0.075,
+   "policy_calls_difference": 19.99375,
+   "inference_seconds_difference": 1.9894126970887556,
+   "capped_confirmation_seconds_difference": -0.1353125,
+   "capped_recovery_seconds_difference": -0.1353125,
+   "recovery_confirmed_difference": 0.0625,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.06875,
+   "last_ten_success_difference": 0.05,
+   "confirmed_then_failed_difference": 0.0125
+  },
+  "prediction_error_calls19": {
+   "wins": 22,
+   "losses": 10,
+   "ties": 128,
+   "ci95": {
+    "success_at_end_difference": [
+     0.0,
+     0.14375
+    ],
+    "success_once_difference": [
+     0.0,
+     0.14375
+    ],
+    "policy_calls_difference": [
+     24.67484375,
+     27.21875
+    ],
+    "inference_seconds_difference": [
+     2.4492290302505535,
+     2.7125676475117984
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.26438281249999995,
+     -0.0071875000000000315
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.26438281249999995,
+     -0.007187500000000013
+    ],
+    "recovery_confirmed_difference": [
+     -0.00625,
+     0.13125
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.01875,
+     0.09375
+    ],
+    "last_ten_success_difference": [
+     -0.0125,
+     0.11875
+    ],
+    "confirmed_then_failed_difference": [
+     0.0,
+     0.0
+    ]
+   },
+   "success_at_end_difference": 0.075,
+   "success_once_difference": 0.075,
+   "policy_calls_difference": 25.94375,
+   "inference_seconds_difference": 2.581687285251701,
+   "capped_confirmation_seconds_difference": -0.136875,
+   "capped_recovery_seconds_difference": -0.136875,
+   "recovery_confirmed_difference": 0.0625,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.05625,
+   "last_ten_success_difference": 0.05625,
+   "confirmed_then_failed_difference": 0.0
+  },
+  "acceleration_calls15": {
+   "wins": 12,
+   "losses": 12,
+   "ties": 136,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.0625,
+     0.0625
+    ],
+    "success_once_difference": [
+     -0.04375,
+     0.08125
+    ],
+    "policy_calls_difference": [
+     1.4123437500000002,
+     2.3375
+    ],
+    "inference_seconds_difference": [
+     0.14456126691908366,
+     0.23549459059611988
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.25656249999999997,
+     0.014687500000000001
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.25656249999999997,
+     0.014687500000000006
+    ],
+    "recovery_confirmed_difference": [
+     -0.04375,
+     0.09375
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.025,
+     0.1
+    ],
+    "last_ten_success_difference": [
+     -0.06875,
+     0.06875
+    ],
+    "confirmed_then_failed_difference": [
+     0.0,
+     0.03125
+    ]
+   },
+   "success_at_end_difference": 0.0,
+   "success_once_difference": 0.01875,
+   "policy_calls_difference": 1.8625,
+   "inference_seconds_difference": 0.18839923393625213,
+   "capped_confirmation_seconds_difference": -0.11781250000000001,
+   "capped_recovery_seconds_difference": -0.11781250000000001,
+   "recovery_confirmed_difference": 0.025,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.0625,
+   "last_ten_success_difference": 0.0,
+   "confirmed_then_failed_difference": 0.0125
+  },
+  "acceleration_calls19": {
+   "wins": 16,
+   "losses": 16,
+   "ties": 128,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.06875,
+     0.06875
+    ],
+    "success_once_difference": [
+     -0.0625,
+     0.075
+    ],
+    "policy_calls_difference": [
+     4.60625,
+     6.25625
+    ],
+    "inference_seconds_difference": [
+     0.45580062293741547,
+     0.626727782262676
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.24907031250000003,
+     0.05812499999999998
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.24907031250000003,
+     0.05812500000000002
+    ],
+    "recovery_confirmed_difference": [
+     -0.06875,
+     0.08125
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.01875,
+     0.10625
+    ],
+    "last_ten_success_difference": [
+     -0.075,
+     0.075
+    ],
+    "confirmed_then_failed_difference": [
+     0.0,
+     0.01875
+    ]
+   },
+   "success_at_end_difference": 0.0,
+   "success_once_difference": 0.00625,
+   "policy_calls_difference": 5.43125,
+   "inference_seconds_difference": 0.5396364707567954,
+   "capped_confirmation_seconds_difference": -0.09187500000000001,
+   "capped_recovery_seconds_difference": -0.091875,
+   "recovery_confirmed_difference": 0.00625,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.0625,
+   "last_ten_success_difference": 0.0,
+   "confirmed_then_failed_difference": 0.00625
+  },
+  "random_control": {
+   "wins": 9,
+   "losses": 16,
+   "ties": 135,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.10625,
+     0.025
+    ],
+    "success_once_difference": [
+     -0.1,
+     0.02515624999999773
+    ],
+    "policy_calls_difference": [
+     -1.55,
+     -0.95625
+    ],
+    "inference_seconds_difference": [
+     -0.14957286515542362,
+     -0.08886990804127663
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.06187499999999999,
+     0.15031250000000002
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.06187499999999999,
+     0.15031250000000002
+    ],
+    "recovery_confirmed_difference": [
+     -0.1,
+     0.025
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     -0.01875,
+     0.03125
+    ],
+    "last_ten_success_difference": [
+     -0.10625,
+     0.01875
+    ],
+    "confirmed_then_failed_difference": [
+     0.0,
+     0.01875
+    ]
+   },
+   "success_at_end_difference": -0.04375,
+   "success_once_difference": -0.0375,
+   "policy_calls_difference": -1.26875,
+   "inference_seconds_difference": -0.12045030871704512,
+   "capped_confirmation_seconds_difference": 0.0528125,
+   "capped_recovery_seconds_difference": 0.05281250000000002,
+   "recovery_confirmed_difference": -0.0375,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.00625,
+   "last_ten_success_difference": -0.04375,
+   "confirmed_then_failed_difference": 0.00625
+  }
+ },
+ "paired_vs_k8": {
+  "fixed_k15": {
+   "wins": 11,
+   "losses": 18,
+   "ties": 131,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.1,
+     0.0125
+    ],
+    "success_once_difference": [
+     -0.11875,
+     0.0
+    ],
+    "policy_calls_difference": [
+     -9.0,
+     -9.0
+    ],
+    "inference_seconds_difference": [
+     -0.8889621087221713,
+     -0.8618902260163555
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.007195312500000013,
+     0.20718750000000002
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.007195312500000008,
+     0.20718749999999994
+    ],
+    "recovery_confirmed_difference": [
+     -0.10625,
+     0.00625
+    ],
+    "confirmed_by_60_difference": [
+     -0.03125,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     -0.05625,
+     -0.00625
+    ],
+    "last_ten_success_difference": [
+     -0.0875,
+     0.0125
+    ],
+    "confirmed_then_failed_difference": [
+     -0.0375,
+     0.0125
+    ]
+   },
+   "success_at_end_difference": -0.04375,
+   "success_once_difference": -0.0625,
+   "policy_calls_difference": -9.0,
+   "inference_seconds_difference": -0.8751005999374684,
+   "capped_confirmation_seconds_difference": 0.10093749999999999,
+   "capped_recovery_seconds_difference": 0.10093749999999999,
+   "recovery_confirmed_difference": -0.05,
+   "confirmed_by_60_difference": -0.0125,
+   "confirmed_by_100_difference": -0.03125,
+   "last_ten_success_difference": -0.0375,
+   "confirmed_then_failed_difference": -0.0125
+  },
+  "fixed_k10": {
+   "wins": 16,
+   "losses": 9,
+   "ties": 135,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.0125,
+     0.10625
+    ],
+    "success_once_difference": [
+     -0.04375,
+     0.08125
+    ],
+    "policy_calls_difference": [
+     -4.0,
+     -4.0
+    ],
+    "inference_seconds_difference": [
+     -0.4013249593761543,
+     -0.383656869316435
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.10750781250000001,
+     0.10845312499999978
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.10750781250000006,
+     0.10845312499999978
+    ],
+    "recovery_confirmed_difference": [
+     -0.0375,
+     0.0875
+    ],
+    "confirmed_by_60_difference": [
+     -0.03125,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     -0.0625,
+     0.0
+    ],
+    "last_ten_success_difference": [
+     -0.0125,
+     0.10625
+    ],
+    "confirmed_then_failed_difference": [
+     -0.0375,
+     0.0
+    ]
+   },
+   "success_at_end_difference": 0.04375,
+   "success_once_difference": 0.01875,
+   "policy_calls_difference": -4.0,
+   "inference_seconds_difference": -0.39227518885963947,
+   "capped_confirmation_seconds_difference": -0.0009374999999999855,
+   "capped_recovery_seconds_difference": -0.0009375000000000133,
+   "recovery_confirmed_difference": 0.025,
+   "confirmed_by_60_difference": -0.0125,
+   "confirmed_by_100_difference": -0.03125,
+   "last_ten_success_difference": 0.04375,
+   "confirmed_then_failed_difference": -0.01875
+  },
+  "prediction_error_calls15": {
+   "wins": 24,
+   "losses": 7,
+   "ties": 129,
+   "ci95": {
+    "success_at_end_difference": [
+     0.0375,
+     0.18125
+    ],
+    "success_once_difference": [
+     0.01875,
+     0.16875
+    ],
+    "policy_calls_difference": [
+     14.6375,
+     17.418906249999996
+    ],
+    "inference_seconds_difference": [
+     1.468476313481367,
+     1.7279982490601629
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.25625,
+     -0.01810937500000021
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.25625,
+     -0.018109375000000195
+    ],
+    "recovery_confirmed_difference": [
+     0.025,
+     0.15
+    ],
+    "confirmed_by_60_difference": [
+     -0.03125,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.0,
+     0.075
+    ],
+    "last_ten_success_difference": [
+     0.025,
+     0.15625
+    ],
+    "confirmed_then_failed_difference": [
+     -0.03125,
+     0.01875
+    ]
+   },
+   "success_at_end_difference": 0.10625,
+   "success_once_difference": 0.09375,
+   "policy_calls_difference": 15.99375,
+   "inference_seconds_difference": 1.5971375082291162,
+   "capped_confirmation_seconds_difference": -0.13625000000000004,
+   "capped_recovery_seconds_difference": -0.13625,
+   "recovery_confirmed_difference": 0.0875,
+   "confirmed_by_60_difference": -0.0125,
+   "confirmed_by_100_difference": 0.0375,
+   "last_ten_success_difference": 0.09375,
+   "confirmed_then_failed_difference": -0.00625
+  },
+  "prediction_error_calls19": {
+   "wins": 27,
+   "losses": 8,
+   "ties": 125,
+   "ci95": {
+    "success_at_end_difference": [
+     0.04375,
+     0.19375
+    ],
+    "success_once_difference": [
+     0.01875,
+     0.16875
+    ],
+    "policy_calls_difference": [
+     20.67484375,
+     23.21875
+    ],
+    "inference_seconds_difference": [
+     2.0585746167639356,
+     2.3198536716704483
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.264375,
+     -0.015625000000000028
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.26437499999999997,
+     -0.015625000000000035
+    ],
+    "recovery_confirmed_difference": [
+     0.01875,
+     0.15625
+    ],
+    "confirmed_by_60_difference": [
+     -0.03125,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     -0.00625,
+     0.0625
+    ],
+    "last_ten_success_difference": [
+     0.03125,
+     0.16875
+    ],
+    "confirmed_then_failed_difference": [
+     -0.0375,
+     0.0
+    ]
+   },
+   "success_at_end_difference": 0.11875,
+   "success_once_difference": 0.09375,
+   "policy_calls_difference": 21.94375,
+   "inference_seconds_difference": 2.1894120963920614,
+   "capped_confirmation_seconds_difference": -0.1378125,
+   "capped_recovery_seconds_difference": -0.1378125,
+   "recovery_confirmed_difference": 0.0875,
+   "confirmed_by_60_difference": -0.0125,
+   "confirmed_by_100_difference": 0.025,
+   "last_ten_success_difference": 0.1,
+   "confirmed_then_failed_difference": -0.01875
+  },
+  "acceleration_calls15": {
+   "wins": 17,
+   "losses": 10,
+   "ties": 133,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.01875,
+     0.1125
+    ],
+    "success_once_difference": [
+     -0.025,
+     0.10625
+    ],
+    "policy_calls_difference": [
+     -2.5876562499999998,
+     -1.6625
+    ],
+    "inference_seconds_difference": [
+     -0.24819852516817037,
+     -0.15592406853857027
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.2684453125,
+     0.02813281249999989
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.2684453125,
+     0.028132812499999865
+    ],
+    "recovery_confirmed_difference": [
+     -0.0125,
+     0.1125
+    ],
+    "confirmed_by_60_difference": [
+     -0.03125,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     -0.00625,
+     0.075
+    ],
+    "last_ten_success_difference": [
+     -0.01875,
+     0.10625
+    ],
+    "confirmed_then_failed_difference": [
+     -0.03125,
+     0.01875
+    ]
+   },
+   "success_at_end_difference": 0.04375,
+   "success_once_difference": 0.0375,
+   "policy_calls_difference": -2.1375,
+   "inference_seconds_difference": -0.20387595492338734,
+   "capped_confirmation_seconds_difference": -0.11875,
+   "capped_recovery_seconds_difference": -0.11875000000000002,
+   "recovery_confirmed_difference": 0.05,
+   "confirmed_by_60_difference": -0.0125,
+   "confirmed_by_100_difference": 0.03125,
+   "last_ten_success_difference": 0.04375,
+   "confirmed_then_failed_difference": -0.00625
+  },
+  "acceleration_calls19": {
+   "wins": 16,
+   "losses": 9,
+   "ties": 135,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.0125,
+     0.1
+    ],
+    "success_once_difference": [
+     -0.03125,
+     0.0875
+    ],
+    "policy_calls_difference": [
+     0.60625,
+     2.25625
+    ],
+    "inference_seconds_difference": [
+     0.06482516557091003,
+     0.2329416090022367
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.24312499999999998,
+     0.049374999999999995
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.24312500000000004,
+     0.04937499999999997
+    ],
+    "recovery_confirmed_difference": [
+     -0.025,
+     0.0875
+    ],
+    "confirmed_by_60_difference": [
+     -0.03125,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     -0.00625,
+     0.06875
+    ],
+    "last_ten_success_difference": [
+     -0.0125,
+     0.1
+    ],
+    "confirmed_then_failed_difference": [
+     -0.0375,
+     0.0125
+    ]
+   },
+   "success_at_end_difference": 0.04375,
+   "success_once_difference": 0.025,
+   "policy_calls_difference": 1.43125,
+   "inference_seconds_difference": 0.147361281897156,
+   "capped_confirmation_seconds_difference": -0.09281249999999999,
+   "capped_recovery_seconds_difference": -0.0928125,
+   "recovery_confirmed_difference": 0.03125,
+   "confirmed_by_60_difference": -0.0125,
+   "confirmed_by_100_difference": 0.03125,
+   "last_ten_success_difference": 0.04375,
+   "confirmed_then_failed_difference": -0.0125
+  },
+  "random_control": {
+   "wins": 10,
+   "losses": 10,
+   "ties": 140,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.05,
+     0.05
+    ],
+    "success_once_difference": [
+     -0.08125,
+     0.0375
+    ],
+    "policy_calls_difference": [
+     -5.55,
+     -4.95625
+    ],
+    "inference_seconds_difference": [
+     -0.5442887093967034,
+     -0.47924364628047217
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.052500000000000005,
+     0.15875
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.052500000000000005,
+     0.15875
+    ],
+    "recovery_confirmed_difference": [
+     -0.06875,
+     0.04375
+    ],
+    "confirmed_by_60_difference": [
+     -0.03125,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     -0.05625,
+     0.0
+    ],
+    "last_ten_success_difference": [
+     -0.05,
+     0.05
+    ],
+    "confirmed_then_failed_difference": [
+     -0.0375,
+     0.0125
+    ]
+   },
+   "success_at_end_difference": 0.0,
+   "success_once_difference": -0.01875,
+   "policy_calls_difference": -5.26875,
+   "inference_seconds_difference": -0.5127254975766846,
+   "capped_confirmation_seconds_difference": 0.051875000000000004,
+   "capped_recovery_seconds_difference": 0.05187499999999999,
+   "recovery_confirmed_difference": -0.0125,
+   "confirmed_by_60_difference": -0.0125,
+   "confirmed_by_100_difference": -0.025,
+   "last_ten_success_difference": 0.0,
+   "confirmed_then_failed_difference": -0.0125
+  }
+ },
+ "paired_vs_random_control": {
+  "fixed_k15": {
+   "wins": 6,
+   "losses": 13,
+   "ties": 141,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.09375,
+     0.0125
+    ],
+    "success_once_difference": [
+     -0.09375,
+     0.0125
+    ],
+    "policy_calls_difference": [
+     -4.04375,
+     -3.45
+    ],
+    "inference_seconds_difference": [
+     -0.39628587050445735,
+     -0.3325133611552906
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.0450078125,
+     0.14063281249999993
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.04500781250000001,
+     0.14063281249999987
+    ],
+    "recovery_confirmed_difference": [
+     -0.0875,
+     0.0125
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     -0.03125,
+     0.01875
+    ],
+    "last_ten_success_difference": [
+     -0.0875,
+     0.0125
+    ],
+    "confirmed_then_failed_difference": [
+     0.0,
+     0.0
+    ]
+   },
+   "success_at_end_difference": -0.04375,
+   "success_once_difference": -0.04375,
+   "policy_calls_difference": -3.73125,
+   "inference_seconds_difference": -0.3623751023607838,
+   "capped_confirmation_seconds_difference": 0.049062499999999995,
+   "capped_recovery_seconds_difference": 0.049062499999999995,
+   "recovery_confirmed_difference": -0.0375,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": -0.00625,
+   "last_ten_success_difference": -0.0375,
+   "confirmed_then_failed_difference": 0.0
+  },
+  "fixed_k10": {
+   "wins": 16,
+   "losses": 9,
+   "ties": 135,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.025,
+     0.10625
+    ],
+    "success_once_difference": [
+     -0.02515624999999995,
+     0.1
+    ],
+    "policy_calls_difference": [
+     0.95625,
+     1.55
+    ],
+    "inference_seconds_difference": [
+     0.08886990804127663,
+     0.14957286515542362
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.15031250000000002,
+     0.06187499999999999
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.15031250000000002,
+     0.06187499999999999
+    ],
+    "recovery_confirmed_difference": [
+     -0.025,
+     0.1
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     -0.03125,
+     0.01875
+    ],
+    "last_ten_success_difference": [
+     -0.01875,
+     0.10625
+    ],
+    "confirmed_then_failed_difference": [
+     -0.01875,
+     0.0
+    ]
+   },
+   "success_at_end_difference": 0.04375,
+   "success_once_difference": 0.0375,
+   "policy_calls_difference": 1.26875,
+   "inference_seconds_difference": 0.12045030871704512,
+   "capped_confirmation_seconds_difference": -0.0528125,
+   "capped_recovery_seconds_difference": -0.05281250000000002,
+   "recovery_confirmed_difference": 0.0375,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": -0.00625,
+   "last_ten_success_difference": 0.04375,
+   "confirmed_then_failed_difference": -0.00625
+  },
+  "fixed_k8": {
+   "wins": 10,
+   "losses": 10,
+   "ties": 140,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.05,
+     0.05
+    ],
+    "success_once_difference": [
+     -0.0375,
+     0.08125
+    ],
+    "policy_calls_difference": [
+     4.95625,
+     5.55
+    ],
+    "inference_seconds_difference": [
+     0.47924364628047217,
+     0.5442887093967033
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.15875,
+     0.052500000000000005
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.15875,
+     0.052500000000000005
+    ],
+    "recovery_confirmed_difference": [
+     -0.04375,
+     0.06875
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.03125
+    ],
+    "confirmed_by_100_difference": [
+     0.0,
+     0.05625
+    ],
+    "last_ten_success_difference": [
+     -0.05,
+     0.05
+    ],
+    "confirmed_then_failed_difference": [
+     -0.0125,
+     0.0375
+    ]
+   },
+   "success_at_end_difference": 0.0,
+   "success_once_difference": 0.01875,
+   "policy_calls_difference": 5.26875,
+   "inference_seconds_difference": 0.5127254975766846,
+   "capped_confirmation_seconds_difference": -0.051875000000000004,
+   "capped_recovery_seconds_difference": -0.05187499999999999,
+   "recovery_confirmed_difference": 0.0125,
+   "confirmed_by_60_difference": 0.0125,
+   "confirmed_by_100_difference": 0.025,
+   "last_ten_success_difference": 0.0,
+   "confirmed_then_failed_difference": 0.0125
+  },
+  "prediction_error_calls15": {
+   "wins": 24,
+   "losses": 7,
+   "ties": 129,
+   "ci95": {
+    "success_at_end_difference": [
+     0.0375,
+     0.175
+    ],
+    "success_once_difference": [
+     0.05,
+     0.175
+    ],
+    "policy_calls_difference": [
+     19.83125,
+     22.7125
+    ],
+    "inference_seconds_difference": [
+     1.9727353484032368,
+     2.248329350945992
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.3121953125,
+     -0.05749218750000013
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.3121953125,
+     -0.057492187500000146
+    ],
+    "recovery_confirmed_difference": [
+     0.0375,
+     0.1625
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.025,
+     0.10625
+    ],
+    "last_ten_success_difference": [
+     0.03125,
+     0.15625
+    ],
+    "confirmed_then_failed_difference": [
+     -0.0125,
+     0.03125
+    ]
+   },
+   "success_at_end_difference": 0.10625,
+   "success_once_difference": 0.1125,
+   "policy_calls_difference": 21.2625,
+   "inference_seconds_difference": 2.1098630058058006,
+   "capped_confirmation_seconds_difference": -0.18812500000000001,
+   "capped_recovery_seconds_difference": -0.18812500000000001,
+   "recovery_confirmed_difference": 0.1,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.0625,
+   "last_ten_success_difference": 0.09375,
+   "confirmed_then_failed_difference": 0.00625
+  },
+  "prediction_error_calls19": {
+   "wins": 23,
+   "losses": 4,
+   "ties": 133,
+   "ci95": {
+    "success_at_end_difference": [
+     0.05625,
+     0.18125
+    ],
+    "success_once_difference": [
+     0.05,
+     0.175
+    ],
+    "policy_calls_difference": [
+     25.81859375,
+     28.60625
+    ],
+    "inference_seconds_difference": [
+     2.5575033553967317,
+     2.845908789073869
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.2959375,
+     -0.08717968750000012
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.2959375,
+     -0.08717968750000012
+    ],
+    "recovery_confirmed_difference": [
+     0.0375,
+     0.1625
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.024843750000000053,
+     0.08125
+    ],
+    "last_ten_success_difference": [
+     0.0375,
+     0.1625
+    ],
+    "confirmed_then_failed_difference": [
+     -0.01875,
+     0.0
+    ]
+   },
+   "success_at_end_difference": 0.11875,
+   "success_once_difference": 0.1125,
+   "policy_calls_difference": 27.2125,
+   "inference_seconds_difference": 2.7021375939687458,
+   "capped_confirmation_seconds_difference": -0.1896875,
+   "capped_recovery_seconds_difference": -0.1896875,
+   "recovery_confirmed_difference": 0.1,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.05,
+   "last_ten_success_difference": 0.1,
+   "confirmed_then_failed_difference": -0.00625
+  },
+  "acceleration_calls15": {
+   "wins": 14,
+   "losses": 7,
+   "ties": 139,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.0125,
+     0.10625
+    ],
+    "success_once_difference": [
+     0.0,
+     0.11875
+    ],
+    "policy_calls_difference": [
+     2.5875,
+     3.69375
+    ],
+    "inference_seconds_difference": [
+     0.25440915007723336,
+     0.364646886214723
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.30000781249999997,
+     -0.04750000000000002
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.30000781249999997,
+     -0.04750000000000002
+    ],
+    "recovery_confirmed_difference": [
+     0.00625,
+     0.11875
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.01875,
+     0.09375
+    ],
+    "last_ten_success_difference": [
+     -0.0125,
+     0.1
+    ],
+    "confirmed_then_failed_difference": [
+     -0.0125,
+     0.025
+    ]
+   },
+   "success_at_end_difference": 0.04375,
+   "success_once_difference": 0.05625,
+   "policy_calls_difference": 3.13125,
+   "inference_seconds_difference": 0.3088495426532972,
+   "capped_confirmation_seconds_difference": -0.170625,
+   "capped_recovery_seconds_difference": -0.170625,
+   "recovery_confirmed_difference": 0.0625,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.05625,
+   "last_ten_success_difference": 0.04375,
+   "confirmed_then_failed_difference": 0.00625
+  },
+  "acceleration_calls19": {
+   "wins": 14,
+   "losses": 7,
+   "ties": 139,
+   "ci95": {
+    "success_at_end_difference": [
+     -0.0125,
+     0.10625
+    ],
+    "success_once_difference": [
+     -0.0125,
+     0.10625
+    ],
+    "policy_calls_difference": [
+     5.76875,
+     7.625
+    ],
+    "inference_seconds_difference": [
+     0.5669806386031997,
+     0.7563941699684164
+    ],
+    "capped_confirmation_seconds_difference": [
+     -0.28594531249999994,
+     -0.015624999999999986
+    ],
+    "capped_recovery_seconds_difference": [
+     -0.28594531250000005,
+     -0.015625000000000017
+    ],
+    "recovery_confirmed_difference": [
+     -0.00625,
+     0.10625
+    ],
+    "confirmed_by_60_difference": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100_difference": [
+     0.01875,
+     0.09375
+    ],
+    "last_ten_success_difference": [
+     -0.0125,
+     0.10625
+    ],
+    "confirmed_then_failed_difference": [
+     -0.01875,
+     0.01875
+    ]
+   },
+   "success_at_end_difference": 0.04375,
+   "success_once_difference": 0.04375,
+   "policy_calls_difference": 6.7,
+   "inference_seconds_difference": 0.6600867794738405,
+   "capped_confirmation_seconds_difference": -0.1446875,
+   "capped_recovery_seconds_difference": -0.14468750000000002,
+   "recovery_confirmed_difference": 0.04375,
+   "confirmed_by_60_difference": 0.0,
+   "confirmed_by_100_difference": 0.05625,
+   "last_ten_success_difference": 0.04375,
+   "confirmed_then_failed_difference": 0.0
+  }
+ }
+}

@@ -1,0 +1,787 @@
+{
+ "complete": true,
+ "protocol_sha256": "c4f35f81c8dead21152cccdb8149a0713a8cd00c38c0a7acd55eb970212ec9a0",
+ "checkpoint_audit_sha256": "3c016675c8a4e7971d4f775a362bedfdccc92de32adf77bf517e29299015b5c4",
+ "primary_k8_150": {
+  "difference": 0.0425,
+  "ci95": [
+   0.0175,
+   0.0675
+  ],
+  "wins": 21,
+  "losses": 4,
+  "ties": 375
+ },
+ "summaries": {
+  "100": {
+   "closing_k15": {
+    "episodes": 400,
+    "final_success": 352,
+    "final_success_by_force": {
+     "0.0": 99,
+     "0.2": 98,
+     "0.3": 93,
+     "0.4": 62
+    },
+    "last_ten_success": 326,
+    "confirmation_then_final_failure": 1,
+    "mean_capped_confirmation_seconds": 4.22175,
+    "mean_capped_first_close_seconds": 2.1325,
+    "no_close_by_horizon": 0,
+    "mean_preclose_extrema_5mm": 0.165,
+    "episodes_with_at_least_two_preclose_peaks": 3,
+    "failure_types": {
+     "no_sustained_lift": 32,
+     "lifted_outside_goal": 13,
+     "within_goal_not_static": 3
+    },
+    "opening_commands_while_grasped": 0
+   },
+   "closing_k8": {
+    "episodes": 400,
+    "final_success": 356,
+    "final_success_by_force": {
+     "0.0": 97,
+     "0.2": 97,
+     "0.3": 94,
+     "0.4": 68
+    },
+    "last_ten_success": 325,
+    "confirmation_then_final_failure": 1,
+    "mean_capped_confirmation_seconds": 4.1945,
+    "mean_capped_first_close_seconds": 2.27175,
+    "no_close_by_horizon": 0,
+    "mean_preclose_extrema_5mm": 0.52,
+    "episodes_with_at_least_two_preclose_peaks": 16,
+    "failure_types": {
+     "lifted_outside_goal": 23,
+     "no_sustained_lift": 18,
+     "within_goal_not_static": 3
+    },
+    "opening_commands_while_grasped": 0
+   },
+   "retained_k15": {
+    "episodes": 400,
+    "final_success": 340,
+    "final_success_by_force": {
+     "0.0": 97,
+     "0.2": 98,
+     "0.3": 92,
+     "0.4": 53
+    },
+    "last_ten_success": 325,
+    "confirmation_then_final_failure": 3,
+    "mean_capped_confirmation_seconds": 4.177875,
+    "mean_capped_first_close_seconds": 2.069625,
+    "no_close_by_horizon": 0,
+    "mean_preclose_extrema_5mm": 0.005,
+    "episodes_with_at_least_two_preclose_peaks": 0,
+    "failure_types": {
+     "no_sustained_lift": 36,
+     "lifted_outside_goal": 23,
+     "within_goal_not_static": 1
+    },
+    "opening_commands_while_grasped": 0
+   },
+   "retained_k8": {
+    "episodes": 400,
+    "final_success": 356,
+    "final_success_by_force": {
+     "0.0": 98,
+     "0.2": 98,
+     "0.3": 95,
+     "0.4": 65
+    },
+    "last_ten_success": 342,
+    "confirmation_then_final_failure": 0,
+    "mean_capped_confirmation_seconds": 4.133500000000001,
+    "mean_capped_first_close_seconds": 2.068625,
+    "no_close_by_horizon": 0,
+    "mean_preclose_extrema_5mm": 0.025,
+    "episodes_with_at_least_two_preclose_peaks": 0,
+    "failure_types": {
+     "no_sustained_lift": 25,
+     "lifted_outside_goal": 19
+    },
+    "opening_commands_while_grasped": 0
+   }
+  },
+  "150": {
+   "closing_k15": {
+    "episodes": 400,
+    "final_success": 366,
+    "final_success_by_force": {
+     "0.0": 98,
+     "0.2": 98,
+     "0.3": 95,
+     "0.4": 75
+    },
+    "last_ten_success": 364,
+    "confirmation_then_final_failure": 11,
+    "mean_capped_confirmation_seconds": 4.4695,
+    "mean_capped_first_close_seconds": 2.1325,
+    "no_close_by_horizon": 0,
+    "mean_preclose_extrema_5mm": 0.165,
+    "episodes_with_at_least_two_preclose_peaks": 3,
+    "failure_types": {
+     "lifted_outside_goal": 16,
+     "no_sustained_lift": 18
+    },
+    "opening_commands_while_grasped": 0
+   },
+   "closing_k8": {
+    "episodes": 400,
+    "final_success": 375,
+    "final_success_by_force": {
+     "0.0": 97,
+     "0.2": 97,
+     "0.3": 100,
+     "0.4": 81
+    },
+    "last_ten_success": 373,
+    "confirmation_then_final_failure": 11,
+    "mean_capped_confirmation_seconds": 4.377375,
+    "mean_capped_first_close_seconds": 2.27175,
+    "no_close_by_horizon": 0,
+    "mean_preclose_extrema_5mm": 0.52,
+    "episodes_with_at_least_two_preclose_peaks": 16,
+    "failure_types": {
+     "lifted_outside_goal": 17,
+     "no_sustained_lift": 8
+    },
+    "opening_commands_while_grasped": 0
+   },
+   "retained_k15": {
+    "episodes": 400,
+    "final_success": 358,
+    "final_success_by_force": {
+     "0.0": 99,
+     "0.2": 99,
+     "0.3": 96,
+     "0.4": 64
+    },
+    "last_ten_success": 353,
+    "confirmation_then_final_failure": 12,
+    "mean_capped_confirmation_seconds": 4.460625,
+    "mean_capped_first_close_seconds": 2.069625,
+    "no_close_by_horizon": 0,
+    "mean_preclose_extrema_5mm": 0.005,
+    "episodes_with_at_least_two_preclose_peaks": 0,
+    "failure_types": {
+     "no_sustained_lift": 23,
+     "lifted_outside_goal": 19
+    },
+    "opening_commands_while_grasped": 0
+   },
+   "retained_k8": {
+    "episodes": 400,
+    "final_success": 358,
+    "final_success_by_force": {
+     "0.0": 97,
+     "0.2": 97,
+     "0.3": 98,
+     "0.4": 66
+    },
+    "last_ten_success": 353,
+    "confirmation_then_final_failure": 12,
+    "mean_capped_confirmation_seconds": 4.37775,
+    "mean_capped_first_close_seconds": 2.068625,
+    "no_close_by_horizon": 0,
+    "mean_preclose_extrema_5mm": 0.025,
+    "episodes_with_at_least_two_preclose_peaks": 0,
+    "failure_types": {
+     "no_sustained_lift": 22,
+     "lifted_outside_goal": 20
+    },
+    "opening_commands_while_grasped": 0
+   }
+  }
+ },
+ "deadline_changes": {
+  "closing_k15": {
+   "episodes": 400,
+   "success_at_original_horizon": 352,
+   "success_at_extended_horizon": 366,
+   "rescued": 23,
+   "lost": 9,
+   "still_failed": 25,
+   "last_ten_success": 364,
+   "paired_final_success_change": 0.035,
+   "ci95": [
+    -0.0025,
+    0.075
+   ],
+   "outcomes": {
+    "success": 366,
+    "lifted_outside_goal": 16,
+    "no_sustained_lift": 18
+   }
+  },
+  "closing_k8": {
+   "episodes": 400,
+   "success_at_original_horizon": 356,
+   "success_at_extended_horizon": 375,
+   "rescued": 29,
+   "lost": 10,
+   "still_failed": 15,
+   "last_ten_success": 373,
+   "paired_final_success_change": 0.0475,
+   "ci95": [
+    0.0025,
+    0.095
+   ],
+   "outcomes": {
+    "success": 375,
+    "lifted_outside_goal": 17,
+    "no_sustained_lift": 8
+   }
+  },
+  "retained_k15": {
+   "episodes": 400,
+   "success_at_original_horizon": 340,
+   "success_at_extended_horizon": 358,
+   "rescued": 23,
+   "lost": 5,
+   "still_failed": 37,
+   "last_ten_success": 353,
+   "paired_final_success_change": 0.045,
+   "ci95": [
+    0.015,
+    0.0775
+   ],
+   "outcomes": {
+    "success": 358,
+    "no_sustained_lift": 23,
+    "lifted_outside_goal": 19
+   }
+  },
+  "retained_k8": {
+   "episodes": 400,
+   "success_at_original_horizon": 356,
+   "success_at_extended_horizon": 358,
+   "rescued": 13,
+   "lost": 11,
+   "still_failed": 31,
+   "last_ten_success": 353,
+   "paired_final_success_change": 0.005,
+   "ci95": [
+    -0.03,
+    0.04
+   ],
+   "outcomes": {
+    "success": 358,
+    "no_sustained_lift": 22,
+    "lifted_outside_goal": 20
+   }
+  }
+ },
+ "success_effects": {
+  "100": {
+   "closing_vs_retained": {
+    "overall": {
+     "8": {
+      "difference": 0.0,
+      "ci95": [
+       -0.0375,
+       0.03256249999999909
+      ],
+      "wins": 16,
+      "losses": 16,
+      "ties": 368
+     },
+     "15": {
+      "difference": 0.03,
+      "ci95": [
+       0.005,
+       0.055
+      ],
+      "wins": 18,
+      "losses": 6,
+      "ties": 376
+     }
+    },
+    "force_0": {
+     "8": {
+      "difference": -0.01,
+      "ci95": [
+       -0.05,
+       0.02
+      ],
+      "wins": 1,
+      "losses": 2,
+      "ties": 97
+     },
+     "15": {
+      "difference": 0.02,
+      "ci95": [
+       0.0,
+       0.05
+      ],
+      "wins": 2,
+      "losses": 0,
+      "ties": 98
+     }
+    },
+    "force_0.2": {
+     "8": {
+      "difference": -0.01,
+      "ci95": [
+       -0.05,
+       0.02
+      ],
+      "wins": 1,
+      "losses": 2,
+      "ties": 97
+     },
+     "15": {
+      "difference": 0.0,
+      "ci95": [
+       -0.03,
+       0.03
+      ],
+      "wins": 1,
+      "losses": 1,
+      "ties": 98
+     }
+    },
+    "force_0.3": {
+     "8": {
+      "difference": -0.01,
+      "ci95": [
+       -0.06,
+       0.04
+      ],
+      "wins": 3,
+      "losses": 4,
+      "ties": 93
+     },
+     "15": {
+      "difference": 0.01,
+      "ci95": [
+       -0.02,
+       0.04
+      ],
+      "wins": 2,
+      "losses": 1,
+      "ties": 97
+     }
+    },
+    "force_0.4": {
+     "8": {
+      "difference": 0.03,
+      "ci95": [
+       -0.06,
+       0.12
+      ],
+      "wins": 11,
+      "losses": 8,
+      "ties": 81
+     },
+     "15": {
+      "difference": 0.09,
+      "ci95": [
+       0.01,
+       0.17
+      ],
+      "wins": 13,
+      "losses": 4,
+      "ties": 83
+     }
+    }
+   }
+  },
+  "150": {
+   "closing_vs_retained": {
+    "overall": {
+     "8": {
+      "difference": 0.0425,
+      "ci95": [
+       0.0175,
+       0.0675
+      ],
+      "wins": 21,
+      "losses": 4,
+      "ties": 375
+     },
+     "15": {
+      "difference": 0.02,
+      "ci95": [
+       -0.01,
+       0.0475
+      ],
+      "wins": 19,
+      "losses": 11,
+      "ties": 370
+     }
+    },
+    "force_0": {
+     "8": {
+      "difference": 0.0,
+      "ci95": [
+       -0.03,
+       0.03
+      ],
+      "wins": 1,
+      "losses": 1,
+      "ties": 98
+     },
+     "15": {
+      "difference": -0.01,
+      "ci95": [
+       -0.03,
+       0.0
+      ],
+      "wins": 0,
+      "losses": 1,
+      "ties": 99
+     }
+    },
+    "force_0.2": {
+     "8": {
+      "difference": 0.0,
+      "ci95": [
+       -0.03,
+       0.03
+      ],
+      "wins": 1,
+      "losses": 1,
+      "ties": 98
+     },
+     "15": {
+      "difference": -0.01,
+      "ci95": [
+       -0.03,
+       0.0
+      ],
+      "wins": 0,
+      "losses": 1,
+      "ties": 99
+     }
+    },
+    "force_0.3": {
+     "8": {
+      "difference": 0.02,
+      "ci95": [
+       0.0,
+       0.05
+      ],
+      "wins": 2,
+      "losses": 0,
+      "ties": 98
+     },
+     "15": {
+      "difference": -0.01,
+      "ci95": [
+       -0.03,
+       0.0
+      ],
+      "wins": 0,
+      "losses": 1,
+      "ties": 99
+     }
+    },
+    "force_0.4": {
+     "8": {
+      "difference": 0.15,
+      "ci95": [
+       0.07,
+       0.23
+      ],
+      "wins": 17,
+      "losses": 2,
+      "ties": 81
+     },
+     "15": {
+      "difference": 0.11,
+      "ci95": [
+       0.01,
+       0.21
+      ],
+      "wins": 19,
+      "losses": 8,
+      "ties": 73
+     }
+    }
+   }
+  }
+ },
+ "paired_confirmation_time": {
+  "100": {
+   "closing_vs_retained": {
+    "overall": {
+     "8": {
+      "difference_seconds": 0.06099999999999997,
+      "ci95": [
+       -0.007125000000000044,
+       0.13350624999999985
+      ]
+     },
+     "15": {
+      "difference_seconds": 0.04387499999999998,
+      "ci95": [
+       0.009499999999999974,
+       0.08037499999999997
+      ]
+     }
+    },
+    "force_0": {
+     "8": {
+      "difference_seconds": 0.08499999999999996,
+      "ci95": [
+       -0.006500000000000053,
+       0.18299999999999997
+      ]
+     },
+     "15": {
+      "difference_seconds": 0.059499999999999956,
+      "ci95": [
+       0.017999999999999964,
+       0.10049999999999995
+      ]
+     }
+    },
+    "force_0.2": {
+     "8": {
+      "difference_seconds": 0.07599999999999998,
+      "ci95": [
+       -0.01750000000000003,
+       0.17501249999999985
+      ]
+     },
+     "15": {
+      "difference_seconds": 0.059499999999999977,
+      "ci95": [
+       0.013499999999999962,
+       0.10549999999999994
+      ]
+     }
+    },
+    "force_0.3": {
+     "8": {
+      "difference_seconds": 0.07149999999999995,
+      "ci95": [
+       -0.019000000000000065,
+       0.16599999999999995
+      ]
+     },
+     "15": {
+      "difference_seconds": 0.04949999999999998,
+      "ci95": [
+       0.005499999999999998,
+       0.09449999999999996
+      ]
+     }
+    },
+    "force_0.4": {
+     "8": {
+      "difference_seconds": 0.011499999999999963,
+      "ci95": [
+       -0.07500000000000001,
+       0.09949999999999999
+      ]
+     },
+     "15": {
+      "difference_seconds": 0.0070000000000000106,
+      "ci95": [
+       -0.05949999999999995,
+       0.06850000000000002
+      ]
+     }
+    }
+   }
+  },
+  "150": {
+   "closing_vs_retained": {
+    "overall": {
+     "8": {
+      "difference_seconds": -0.0003750000000000253,
+      "ci95": [
+       -0.101509375,
+       0.105375
+      ]
+     },
+     "15": {
+      "difference_seconds": 0.008874999999999992,
+      "ci95": [
+       -0.05587499999999999,
+       0.07212812499999993
+      ]
+     }
+    },
+    "force_0": {
+     "8": {
+      "difference_seconds": 0.09699999999999999,
+      "ci95": [
+       -0.03300000000000005,
+       0.23349999999999993
+      ]
+     },
+     "15": {
+      "difference_seconds": 0.06199999999999995,
+      "ci95": [
+       0.006999999999999931,
+       0.11500000000000002
+      ]
+     }
+    },
+    "force_0.2": {
+     "8": {
+      "difference_seconds": 0.08849999999999998,
+      "ci95": [
+       -0.0425,
+       0.22651249999999978
+      ]
+     },
+     "15": {
+      "difference_seconds": 0.06899999999999996,
+      "ci95": [
+       0.002987499999999942,
+       0.13849999999999996
+      ]
+     }
+    },
+    "force_0.3": {
+     "8": {
+      "difference_seconds": 0.03799999999999994,
+      "ci95": [
+       -0.11851250000000003,
+       0.18149999999999994
+      ]
+     },
+     "15": {
+      "difference_seconds": 0.0365,
+      "ci95": [
+       -0.04001250000000002,
+       0.10149999999999998
+      ]
+     }
+    },
+    "force_0.4": {
+     "8": {
+      "difference_seconds": -0.225,
+      "ci95": [
+       -0.4575000000000001,
+       -0.00048750000000026024
+      ]
+     },
+     "15": {
+      "difference_seconds": -0.13199999999999992,
+      "ci95": [
+       -0.3549999999999999,
+       0.07501249999999991
+      ]
+     }
+    }
+   }
+  }
+ },
+ "behavior_effects": {
+  "100": {
+   "closing_vs_retained": {
+    "8": {
+     "preclose_height_extrema_5mm": {
+      "difference": 0.495,
+      "ci95": [
+       0.325,
+       0.685
+      ]
+     },
+     "first_close_step": {
+      "difference": 0.20312500000000003,
+      "ci95": [
+       0.12424999999999999,
+       0.293003125
+      ]
+     }
+    },
+    "15": {
+     "preclose_height_extrema_5mm": {
+      "difference": 0.16,
+      "ci95": [
+       0.08,
+       0.26
+      ]
+     },
+     "first_close_step": {
+      "difference": 0.062875,
+      "ci95": [
+       0.032371875,
+       0.09887812499999994
+      ]
+     }
+    }
+   }
+  },
+  "150": {
+   "closing_vs_retained": {
+    "8": {
+     "preclose_height_extrema_5mm": {
+      "difference": 0.495,
+      "ci95": [
+       0.325,
+       0.685
+      ]
+     },
+     "first_close_step": {
+      "difference": 0.20312500000000003,
+      "ci95": [
+       0.12424999999999999,
+       0.293003125
+      ]
+     }
+    },
+    "15": {
+     "preclose_height_extrema_5mm": {
+      "difference": 0.16,
+      "ci95": [
+       0.08,
+       0.26
+      ]
+     },
+     "first_close_step": {
+      "difference": 0.062875,
+      "ci95": [
+       0.032371875,
+       0.09887812499999994
+      ]
+     }
+    }
+   }
+  }
+ },
+ "checks": {
+  "100": {
+   "exact_repeats": 8,
+   "actions_checked": 160000,
+   "initial_states_matched": true,
+   "force_schedules_checked": true,
+   "fixed_call_counts_checked": true,
+   "fresh_reset_groups": 100,
+   "preserved_artifacts": 13732,
+   "exact_physics_replays": 1600,
+   "physics_actions_replayed": 160000,
+   "independent_paired_success_intervals": true
+  },
+  "150": {
+   "original_prefixes_match": 1600,
+   "full_state_prefixes_match": 1600,
+   "exact_repeats": 8,
+   "previous_files_unchanged": 15339,
+   "success_checked_from_physics": true,
+   "force_schedules_unchanged": true,
+   "original_chunk_tails_preserved": true,
+   "exact_physics_replays": 1600,
+   "physics_actions_replayed": 240000,
+   "independent_paired_success_intervals": true
+  }
+ },
+ "limitations": [
+  "One fixed training seed and one diffusion sampling seed per reset group.",
+  "Forces are deliberately equally weighted; the aggregate is not a natural deployment frequency.",
+  "The two whole training recipes differ; this comparison cannot isolate closing labels alone.",
+  "Earlier inspected cohorts motivated this test and are not pooled into its primary result.",
+  "The100/150 endpoints share1600 trajectories; they are not3200 independent episodes.",
+  "Preclose extrema describe motion before the first strong close; they do not establish teacher causality or count later retry oscillations.",
+  "A ten-step confirmation can precede a final failure; endpoint success remains separately reported."
+ ]
+}

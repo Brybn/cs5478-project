@@ -1,0 +1,97 @@
+{
+ "selected": [
+  {
+   "variant": "prediction_error_calls17",
+   "target_calls": 17,
+   "kind": "prediction_error",
+   "threshold": 6.0,
+   "source_variant": "prediction_error_6",
+   "reproduces_k15": false,
+   "validation_success": 86,
+   "validation_mean_calls": 18.458333333333332
+  },
+  {
+   "variant": "prediction_error_calls25",
+   "target_calls": 25,
+   "kind": "prediction_error",
+   "threshold": 2.0,
+   "source_variant": "prediction_error_2",
+   "reproduces_k15": false,
+   "validation_success": 88,
+   "validation_mean_calls": 24.525
+  },
+  {
+   "variant": "acceleration_calls17",
+   "target_calls": 17,
+   "kind": "acceleration",
+   "threshold": null,
+   "source_variant": "fixed_k15",
+   "reproduces_k15": true,
+   "validation_success": 85,
+   "validation_mean_calls": 17.0
+  },
+  {
+   "variant": "acceleration_calls25",
+   "target_calls": 25,
+   "kind": "acceleration",
+   "threshold": 0.002,
+   "source_variant": "acceleration_0.002",
+   "reproduces_k15": false,
+   "validation_success": 86,
+   "validation_mean_calls": 25.175
+  }
+ ],
+ "bands": [
+  {
+   "kind": "prediction_error",
+   "target_calls": 17,
+   "matching_candidates": 2
+  },
+  {
+   "kind": "prediction_error",
+   "target_calls": 25,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "prediction_error",
+   "target_calls": 32,
+   "matching_candidates": 0
+  },
+  {
+   "kind": "acceleration",
+   "target_calls": 17,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "acceleration",
+   "target_calls": 25,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "acceleration",
+   "target_calls": 32,
+   "matching_candidates": 0
+  }
+ ],
+ "rule": "For each trigger and target 17/25/32 calls (fixed K15/K10/K8), require mean calls in [0.9*target, 1.1*target]; minimize mean capped time to goal, then maximize final success, then minimize calls, then prefer disabled/higher threshold. Omit a band if no candidate fits.",
+ "exploratory_selected": [
+  {
+   "variant": "prediction_error_exploratory",
+   "kind": "prediction_error",
+   "threshold": 0.75,
+   "source_variant": "prediction_error_0.75",
+   "reproduces_k15": false,
+   "exploratory": true,
+   "validation_success": 93,
+   "validation_mean_calls": 55.075
+  }
+ ],
+ "exploratory_rule": "Lowest active learned validation time to goal; tie-break by success, then fewer mean policy calls. Primary selection unchanged.",
+ "exploratory_reason": "Report an active learned point separately from the primary call-band selection.",
+ "selected_at_utc": "2026-11-13T21:20:05.726441+00:00",
+ "predictor_sha256": "fc713cd5ad6345a3e43d8ded21161b582ea6a2c3e20437d9c2a8117f891103a2",
+ "validation_sha256": "7a7d8cf5e5c7a05cd2c1e28a0ddf84d868062337b868141be995cc2d76e1c1b1",
+ "metadata_sha256": "72fbe985b2ae6baff7e58b0099ea48e12a8bdbab357000cea9d3a3a05081ec5d",
+ "disabled_candidate": "Reuse fixed K15 success and call counts; final test measures monitor overhead directly",
+ "exploratory_selected_at_utc": "2026-11-13T21:20:05.726441+00:00"
+}

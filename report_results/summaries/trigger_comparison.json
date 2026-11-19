@@ -1,0 +1,221 @@
+{
+ "definition": "Trigger checks for the four main cohorts (no new rollouts). Writes results/trigger_comparison.json.\n\n1. Acceleration trigger minus prediction-error trigger, paired time to goal (capped at the horizon), averaged within\n   reset group and bootstrapped over whole groups, as in Table 2.\n2. Random-control timing: the control's draw is a CRC32 hash of the current state, so check that it fires as often in\n   the window from pulse start to three steps after the pulse as in the same steps of the 0 N episode of each group.\n   A step is eligible when a draw can fire (2-14 steps after the previous call); calls at 15 steps are scheduled.\n3. Acceleration trigger minus random control, separately on the test groups and on the fresh (confirmation) groups.",
+ "bootstrap": {
+  "samples": 5000,
+  "seed": 4501
+ },
+ "acceleration_minus_prediction_error": {
+  "PickCube (80 groups)": {
+   "minuend": "acceleration_calls15",
+   "subtrahend": "prediction_error_calls15",
+   "groups": 80,
+   "difference_s": -0.09265625,
+   "ci95": [
+    -0.19485546875000004,
+    0.010472656249999945
+   ]
+  },
+  "PickCube, second policy (80 groups)": {
+   "minuend": "acceleration_calls15",
+   "subtrahend": "prediction_error_calls15",
+   "groups": 80,
+   "difference_s": -0.2484375,
+   "ci95": [
+    -0.389390625,
+    -0.10982031250000034
+   ]
+  },
+  "StackCube (100 groups)": {
+   "minuend": "acceleration_calls14",
+   "subtrahend": "prediction_error_calls20",
+   "groups": 100,
+   "difference_s": -0.19149999999999998,
+   "ci95": [
+    -0.33201249999999993,
+    -0.056368750000000085
+   ]
+  },
+  "LiftPegUpright (100 groups)": {
+   "minuend": "acceleration_calls25",
+   "subtrahend": "prediction_error_calls25",
+   "groups": 100,
+   "difference_s": 0.04162499999999996,
+   "ci95": [
+    -0.04450312500000004,
+    0.12587812499999995
+   ]
+  }
+ },
+ "random_control_timing": {
+  "PickCube (80 groups)": {
+   "pulse": {
+    "fired": 60,
+    "eligible": 999,
+    "rate": 0.06006006006006006
+   },
+   "no_pulse": {
+    "fired": 24,
+    "eligible": 329,
+    "rate": 0.0729483282674772
+   },
+   "all_steps": {
+    "fired": 2037,
+    "eligible": 41190,
+    "rate": 0.04945375091041515
+   }
+  },
+  "PickCube, second policy (80 groups)": {
+   "pulse": {
+    "fired": 37,
+    "eligible": 1023,
+    "rate": 0.03616813294232649
+   },
+   "no_pulse": {
+    "fired": 16,
+    "eligible": 336,
+    "rate": 0.047619047619047616
+   },
+   "all_steps": {
+    "fired": 2015,
+    "eligible": 41206,
+    "rate": 0.04890064553705771
+   }
+  },
+  "StackCube (100 groups)": {
+   "pulse": {
+    "fired": 24,
+    "eligible": 1297,
+    "rate": 0.018504240555127217
+   },
+   "no_pulse": {
+    "fired": 5,
+    "eligible": 432,
+    "rate": 0.011574074074074073
+   },
+   "all_steps": {
+    "fired": 1375,
+    "eligible": 68988,
+    "rate": 0.01993100249318722
+   }
+  },
+  "LiftPegUpright (100 groups)": {
+   "pulse": {
+    "fired": 105,
+    "eligible": 1262,
+    "rate": 0.0832012678288431
+   },
+   "no_pulse": {
+    "fired": 32,
+    "eligible": 419,
+    "rate": 0.07637231503579953
+   },
+   "all_steps": {
+    "fired": 5971,
+    "eligible": 85834,
+    "rate": 0.06956450823682923
+   }
+  },
+  "pooled": {
+   "pulse": {
+    "fired": 226,
+    "eligible": 4581,
+    "rate": 0.04933420650512988
+   },
+   "no_pulse": {
+    "fired": 77,
+    "eligible": 1516,
+    "rate": 0.05079155672823219
+   }
+  }
+ },
+ "acceleration_minus_random_by_split": {
+  "PickCube (80 groups)": {
+   "test": {
+    "minuend": "acceleration_calls15",
+    "subtrahend": "random_control",
+    "groups": 40,
+    "difference_s": -0.32343749999999993,
+    "ci95": [
+     -0.46843749999999995,
+     -0.18811718750000006
+    ]
+   },
+   "fresh": {
+    "minuend": "acceleration_calls15",
+    "subtrahend": "random_control",
+    "groups": 40,
+    "difference_s": -0.10062499999999999,
+    "ci95": [
+     -0.28282812500000004,
+     0.0725234374999997
+    ]
+   }
+  },
+  "PickCube, second policy (80 groups)": {
+   "test": {
+    "minuend": "acceleration_calls15",
+    "subtrahend": "random_control",
+    "groups": 40,
+    "difference_s": -0.35312499999999997,
+    "ci95": [
+     -0.5490625,
+     -0.1712421875000001
+    ]
+   },
+   "fresh": {
+    "minuend": "acceleration_calls15",
+    "subtrahend": "random_control",
+    "groups": 40,
+    "difference_s": -0.36812500000000004,
+    "ci95": [
+     -0.5462499999999999,
+     -0.1871640625000003
+    ]
+   }
+  },
+  "StackCube (100 groups)": {
+   "test": {
+    "minuend": "acceleration_calls14",
+    "subtrahend": "random_control_acceleration_calls14",
+    "groups": 40,
+    "difference_s": -0.4699999999999999,
+    "ci95": [
+     -0.6428203125,
+     -0.29780468750000005
+    ]
+   },
+   "fresh": {
+    "minuend": "acceleration_calls14",
+    "subtrahend": "random_control_acceleration_calls14",
+    "groups": 60,
+    "difference_s": -0.44354166666666667,
+    "ci95": [
+     -0.6104218749999998,
+     -0.2808333333333334
+    ]
+   }
+  },
+  "LiftPegUpright (100 groups)": {
+   "test": {
+    "minuend": "acceleration_calls25",
+    "subtrahend": "random_control",
+    "groups": 40,
+    "difference_s": -0.20406250000000004,
+    "ci95": [
+     -0.40062500000000006,
+     -0.007500000000000182
+    ]
+   },
+   "fresh": {
+    "minuend": "acceleration_calls25",
+    "subtrahend": "random_control",
+    "groups": 60,
+    "difference_s": -0.2579166666666666,
+    "ci95": [
+     -0.4379166666666668,
+     -0.0697812500000001
+    ]
+   }
+  }
+ }
+}

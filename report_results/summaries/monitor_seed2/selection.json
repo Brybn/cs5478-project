@@ -1,0 +1,117 @@
+{
+ "selected": [
+  {
+   "variant": "prediction_error_calls10",
+   "target_calls": 10,
+   "kind": "prediction_error",
+   "threshold": null,
+   "source_variant": "fixed_k15",
+   "reproduces_k15": true,
+   "validation_success": 81,
+   "validation_mean_calls": 10.0
+  },
+  {
+   "variant": "prediction_error_calls15",
+   "target_calls": 15,
+   "kind": "prediction_error",
+   "threshold": 3.0,
+   "source_variant": "prediction_error_3",
+   "reproduces_k15": false,
+   "validation_success": 90,
+   "validation_mean_calls": 13.95
+  },
+  {
+   "variant": "prediction_error_calls19",
+   "target_calls": 19,
+   "kind": "prediction_error",
+   "threshold": 1.5,
+   "source_variant": "prediction_error_1.5",
+   "reproduces_k15": false,
+   "validation_success": 94,
+   "validation_mean_calls": 20.016666666666666
+  },
+  {
+   "variant": "acceleration_calls10",
+   "target_calls": 10,
+   "kind": "acceleration",
+   "threshold": null,
+   "source_variant": "fixed_k15",
+   "reproduces_k15": true,
+   "validation_success": 81,
+   "validation_mean_calls": 10.0
+  },
+  {
+   "variant": "acceleration_calls15",
+   "target_calls": 15,
+   "kind": "acceleration",
+   "threshold": 0.0015,
+   "source_variant": "acceleration_0.0015",
+   "reproduces_k15": false,
+   "validation_success": 95,
+   "validation_mean_calls": 14.208333333333334
+  },
+  {
+   "variant": "acceleration_calls19",
+   "target_calls": 19,
+   "kind": "acceleration",
+   "threshold": 0.001,
+   "source_variant": "acceleration_0.001",
+   "reproduces_k15": false,
+   "validation_success": 93,
+   "validation_mean_calls": 19.433333333333334
+  }
+ ],
+ "bands": [
+  {
+   "kind": "prediction_error",
+   "target_calls": 10,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "prediction_error",
+   "target_calls": 15,
+   "matching_candidates": 2
+  },
+  {
+   "kind": "prediction_error",
+   "target_calls": 19,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "acceleration",
+   "target_calls": 10,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "acceleration",
+   "target_calls": 15,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "acceleration",
+   "target_calls": 19,
+   "matching_candidates": 1
+  }
+ ],
+ "rule": "For each trigger and target 10/15/19 calls (fixed K15/K10/K8), require mean calls in [0.9*target, 1.1*target]; minimize mean capped time to goal, then maximize final success, then minimize calls, then prefer disabled/higher threshold. Omit a band if no candidate fits.",
+ "exploratory_selected": [
+  {
+   "variant": "prediction_error_exploratory",
+   "kind": "prediction_error",
+   "threshold": 2.0,
+   "source_variant": "prediction_error_2",
+   "reproduces_k15": false,
+   "exploratory": true,
+   "validation_success": 89,
+   "validation_mean_calls": 16.966666666666665
+  }
+ ],
+ "exploratory_rule": "Lowest active learned validation time to goal; tie-break by success, then fewer mean policy calls. Primary selection unchanged.",
+ "exploratory_reason": "Report an active learned point separately from the primary call-band selection.",
+ "selected_at_utc": "2026-10-30T11:28:28.268931+00:00",
+ "predictor_sha256": "bd3b1c2fd5dfba7b1432d312b2fd2a3e607ea6e9c99251de6ddc8fc0c0b7174a",
+ "validation_sha256": "190c2da8d9aca2d5f7bd619a4faefefb5127c402cfcef875f8b6f8bb1df6a3fe",
+ "metadata_sha256": "ae351928351b57a9526f987b504801c2641f5a296d635a759948d33673f53885",
+ "disabled_candidate": "Reuse fixed K15 success and call counts; final test measures monitor overhead directly",
+ "exploratory_selected_at_utc": "2026-10-30T11:28:28.268931+00:00"
+}

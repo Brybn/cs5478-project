@@ -1,0 +1,59 @@
+{
+ "validation_calls": {
+  "random_0.99": 18.175,
+  "random_0.98": 19.3,
+  "random_0.97": 20.658333333333335,
+  "random_0.95": 23.033333333333335,
+  "random_0.93": 25.383333333333333,
+  "random_0.92": 26.5,
+  "random_0.9": 29.375,
+  "random_0.87": 33.11666666666667,
+  "random_0.85": 36.59166666666667,
+  "random_0.8": 43.916666666666664
+ },
+ "controls": {
+  "acceleration_calls25": {
+   "target": {
+    "variant": "acceleration_calls25",
+    "target_calls": 25,
+    "kind": "acceleration",
+    "threshold": 0.002,
+    "source_variant": "acceleration_0.002",
+    "reproduces_k15": false,
+    "validation_success": 86,
+    "validation_mean_calls": 25.175
+   },
+   "variant": "random_0.93",
+   "kind": "random",
+   "threshold": 0.93,
+   "control_variant": "random_control"
+  }
+ },
+ "rule": "Closest mean validation calls to each selected trigger; no outcome used",
+ "target": {
+  "variant": "acceleration_calls25",
+  "target_calls": 25,
+  "kind": "acceleration",
+  "threshold": 0.002,
+  "source_variant": "acceleration_0.002",
+  "reproduces_k15": false,
+  "validation_success": 86,
+  "validation_mean_calls": 25.175
+ },
+ "chosen": {
+  "target": {
+   "variant": "acceleration_calls25",
+   "target_calls": 25,
+   "kind": "acceleration",
+   "threshold": 0.002,
+   "source_variant": "acceleration_0.002",
+   "reproduces_k15": false,
+   "validation_success": 86,
+   "validation_mean_calls": 25.175
+  },
+  "variant": "random_0.93",
+  "kind": "random",
+  "threshold": 0.93,
+  "control_variant": "random_control"
+ }
+}

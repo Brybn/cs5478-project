@@ -1,0 +1,337 @@
+{
+ "complete": true,
+ "groups": 80,
+ "chunks": [
+  1,
+  2,
+  4,
+  6,
+  15
+ ],
+ "k15_reproduction": {
+  "checked": 320,
+  "mismatched": []
+ },
+ "summary": {
+  "fixed_k1": {
+   "episodes": 320,
+   "success_at_end_count": 150,
+   "success_once_count": 171,
+   "ci95": {
+    "success_at_end": [
+     0.396875,
+     0.54375
+    ],
+    "success_once": [
+     0.459375,
+     0.609375
+    ],
+    "policy_calls": [
+     150.0,
+     150.0
+    ],
+    "inference_seconds": [
+     16.716519086591394,
+     17.54607662594181
+    ],
+    "capped_confirmation_seconds": [
+     6.20984375,
+     6.62531640625
+    ],
+    "capped_recovery_seconds": [
+     5.6265585937500004,
+     6.041718749999999
+    ],
+    "recovery_confirmed": [
+     0.409375,
+     0.55625
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.015625
+    ],
+    "confirmed_by_100": [
+     0.184375,
+     0.3125
+    ],
+    "last_ten_success": [
+     0.346875,
+     0.5
+    ],
+    "confirmed_then_failed": [
+     0.028125,
+     0.075
+    ]
+   },
+   "success_at_end": 0.46875,
+   "success_once": 0.534375,
+   "policy_calls": 150.0,
+   "inference_seconds": 17.12393753983506,
+   "capped_confirmation_seconds": 6.418906250000001,
+   "capped_recovery_seconds": 5.837187500000001,
+   "recovery_confirmed": 0.48125,
+   "confirmed_by_60": 0.00625,
+   "confirmed_by_100": 0.246875,
+   "last_ten_success": 0.421875,
+   "confirmed_then_failed": 0.05,
+   "policy_seconds": 17.12393753983506,
+   "monitor_seconds": 0.0
+  },
+  "fixed_k2": {
+   "episodes": 320,
+   "success_at_end_count": 254,
+   "success_once_count": 289,
+   "ci95": {
+    "success_at_end": [
+     0.7342968750000001,
+     0.853125
+    ],
+    "success_once": [
+     0.8625,
+     0.940625
+    ],
+    "policy_calls": [
+     75.0,
+     75.0
+    ],
+    "inference_seconds": [
+     8.405904554299592,
+     8.843198882145508
+    ],
+    "capped_confirmation_seconds": [
+     4.7799960937499995,
+     5.1145351562500005
+    ],
+    "capped_recovery_seconds": [
+     4.1998320312500015,
+     4.5284453125
+    ],
+    "recovery_confirmed": [
+     0.853125,
+     0.934375
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.009375
+    ],
+    "confirmed_by_100": [
+     0.568671875,
+     0.703125
+    ],
+    "last_ten_success": [
+     0.696875,
+     0.83125
+    ],
+    "confirmed_then_failed": [
+     0.05625,
+     0.1625
+    ]
+   },
+   "success_at_end": 0.79375,
+   "success_once": 0.903125,
+   "policy_calls": 75.0,
+   "inference_seconds": 8.620489327132328,
+   "capped_confirmation_seconds": 4.93859375,
+   "capped_recovery_seconds": 4.356875,
+   "recovery_confirmed": 0.896875,
+   "confirmed_by_60": 0.003125,
+   "confirmed_by_100": 0.6375,
+   "last_ten_success": 0.765625,
+   "confirmed_then_failed": 0.10625,
+   "policy_seconds": 8.620489327132328,
+   "monitor_seconds": 0.0
+  },
+  "fixed_k4": {
+   "episodes": 320,
+   "success_at_end_count": 262,
+   "success_once_count": 272,
+   "ci95": {
+    "success_at_end": [
+     0.771875,
+     0.8625
+    ],
+    "success_once": [
+     0.80625,
+     0.890625
+    ],
+    "policy_calls": [
+     38.0,
+     38.0
+    ],
+    "inference_seconds": [
+     4.2702266333786465,
+     4.494140680417233
+    ],
+    "capped_confirmation_seconds": [
+     4.75390234375,
+     5.057207031249999
+    ],
+    "capped_recovery_seconds": [
+     4.18046875,
+     4.471718749999999
+    ],
+    "recovery_confirmed": [
+     0.775,
+     0.865625
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.01875
+    ],
+    "confirmed_by_100": [
+     0.653125,
+     0.746875
+    ],
+    "last_ten_success": [
+     0.71875,
+     0.828125
+    ],
+    "confirmed_then_failed": [
+     0.009375,
+     0.05
+    ]
+   },
+   "success_at_end": 0.81875,
+   "success_once": 0.85,
+   "policy_calls": 38.0,
+   "inference_seconds": 4.379455892977376,
+   "capped_confirmation_seconds": 4.9018749999999995,
+   "capped_recovery_seconds": 4.32015625,
+   "recovery_confirmed": 0.821875,
+   "confirmed_by_60": 0.00625,
+   "confirmed_by_100": 0.703125,
+   "last_ten_success": 0.775,
+   "confirmed_then_failed": 0.028125,
+   "policy_seconds": 4.379455892977376,
+   "monitor_seconds": 0.0
+  },
+  "fixed_k6": {
+   "episodes": 320,
+   "success_at_end_count": 254,
+   "success_once_count": 263,
+   "ci95": {
+    "success_at_end": [
+     0.746875,
+     0.840625
+    ],
+    "success_once": [
+     0.78125,
+     0.8625
+    ],
+    "policy_calls": [
+     25.0,
+     25.0
+    ],
+    "inference_seconds": [
+     2.817124215381741,
+     2.9595643582633877
+    ],
+    "capped_confirmation_seconds": [
+     4.74515234375,
+     5.02890625
+    ],
+    "capped_recovery_seconds": [
+     4.1728046875,
+     4.436253906249999
+    ],
+    "recovery_confirmed": [
+     0.76875,
+     0.85625
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100": [
+     0.653125,
+     0.740625
+    ],
+    "last_ten_success": [
+     0.746875,
+     0.840625
+    ],
+    "confirmed_then_failed": [
+     0.00625,
+     0.034375
+    ]
+   },
+   "success_at_end": 0.79375,
+   "success_once": 0.821875,
+   "policy_calls": 25.0,
+   "inference_seconds": 2.8869210939617687,
+   "capped_confirmation_seconds": 4.8853125,
+   "capped_recovery_seconds": 4.30359375,
+   "recovery_confirmed": 0.8125,
+   "confirmed_by_60": 0.0,
+   "confirmed_by_100": 0.696875,
+   "last_ten_success": 0.79375,
+   "confirmed_then_failed": 0.01875,
+   "policy_seconds": 2.8869210939617687,
+   "monitor_seconds": 0.0
+  },
+  "fixed_k15": {
+   "episodes": 320,
+   "success_at_end_count": 265,
+   "success_once_count": 273,
+   "ci95": {
+    "success_at_end": [
+     0.78125,
+     0.871875
+    ],
+    "success_once": [
+     0.809375,
+     0.89375
+    ],
+    "policy_calls": [
+     10.0,
+     10.0
+    ],
+    "inference_seconds": [
+     1.1277003239271357,
+     1.1822457737123018
+    ],
+    "capped_confirmation_seconds": [
+     4.8021875000000005,
+     5.0829765625
+    ],
+    "capped_recovery_seconds": [
+     4.234375,
+     4.489066406249999
+    ],
+    "recovery_confirmed": [
+     0.79375,
+     0.878125
+    ],
+    "confirmed_by_60": [
+     0.0,
+     0.0
+    ],
+    "confirmed_by_100": [
+     0.61875,
+     0.71875
+    ],
+    "last_ten_success": [
+     0.76875,
+     0.859375
+    ],
+    "confirmed_then_failed": [
+     0.00625,
+     0.0375
+    ]
+   },
+   "success_at_end": 0.828125,
+   "success_once": 0.853125,
+   "policy_calls": 10.0,
+   "inference_seconds": 1.154160193953453,
+   "capped_confirmation_seconds": 4.93921875,
+   "capped_recovery_seconds": 4.3575,
+   "recovery_confirmed": 0.8375,
+   "confirmed_by_60": 0.0,
+   "confirmed_by_100": 0.66875,
+   "last_ten_success": 0.815625,
+   "confirmed_then_failed": 0.021875,
+   "policy_seconds": 1.154160193953453,
+   "monitor_seconds": 0.0
+  }
+ }
+}

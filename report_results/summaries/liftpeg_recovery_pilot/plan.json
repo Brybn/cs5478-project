@@ -1,0 +1,304 @@
+{
+ "seed": 389601,
+ "policy": [
+  "checkpoints/liftpeg/policy_120k/best_ddim10.pt",
+  "checkpoints/liftpeg/policy_01_recovery/best.pt",
+  "checkpoints/liftpeg/policy_01_recovery/last.pt"
+ ],
+ "horizon": 250,
+ "chunks": [
+  8,
+  15
+ ],
+ "forces": [
+  0.0,
+  3.0,
+  4.0
+ ],
+ "onset": [
+  8,
+  18
+ ],
+ "groups": [
+  {
+   "group_id": "reset_330936609",
+   "reset_seed": 330936609,
+   "policy_seed": 1398430350,
+   "start_step": 16,
+   "angle": 6.031440119838358
+  },
+  {
+   "group_id": "reset_1266512158",
+   "reset_seed": 1266512158,
+   "policy_seed": 1726178973,
+   "start_step": 17,
+   "angle": 5.895191722120892
+  },
+  {
+   "group_id": "reset_2015330792",
+   "reset_seed": 2015330792,
+   "policy_seed": 1686391122,
+   "start_step": 15,
+   "angle": 1.221130795950872
+  },
+  {
+   "group_id": "reset_1013904249",
+   "reset_seed": 1013904249,
+   "policy_seed": 1771525163,
+   "start_step": 11,
+   "angle": 1.4837284180720298
+  },
+  {
+   "group_id": "reset_2078484965",
+   "reset_seed": 2078484965,
+   "policy_seed": 1506325410,
+   "start_step": 10,
+   "angle": 6.170364553608082
+  },
+  {
+   "group_id": "reset_1133464538",
+   "reset_seed": 1133464538,
+   "policy_seed": 359976010,
+   "start_step": 16,
+   "angle": 1.0045922037267476
+  },
+  {
+   "group_id": "reset_1558005793",
+   "reset_seed": 1558005793,
+   "policy_seed": 1229336401,
+   "start_step": 18,
+   "angle": 4.297530699899648
+  },
+  {
+   "group_id": "reset_1315038223",
+   "reset_seed": 1315038223,
+   "policy_seed": 468181737,
+   "start_step": 10,
+   "angle": 0.13705618308571696
+  },
+  {
+   "group_id": "reset_1788232318",
+   "reset_seed": 1788232318,
+   "policy_seed": 1274071904,
+   "start_step": 18,
+   "angle": 0.21991895124781863
+  },
+  {
+   "group_id": "reset_908697593",
+   "reset_seed": 908697593,
+   "policy_seed": 800492090,
+   "start_step": 12,
+   "angle": 2.927321926139159
+  },
+  {
+   "group_id": "reset_1538811988",
+   "reset_seed": 1538811988,
+   "policy_seed": 204920149,
+   "start_step": 13,
+   "angle": 4.807355897836479
+  },
+  {
+   "group_id": "reset_1656628045",
+   "reset_seed": 1656628045,
+   "policy_seed": 1470747687,
+   "start_step": 16,
+   "angle": 3.690692669404338
+  },
+  {
+   "group_id": "reset_1254764850",
+   "reset_seed": 1254764850,
+   "policy_seed": 282013371,
+   "start_step": 17,
+   "angle": 2.898550430688723
+  },
+  {
+   "group_id": "reset_1625589382",
+   "reset_seed": 1625589382,
+   "policy_seed": 777078518,
+   "start_step": 18,
+   "angle": 0.627377636179232
+  },
+  {
+   "group_id": "reset_918778587",
+   "reset_seed": 918778587,
+   "policy_seed": 1351999,
+   "start_step": 17,
+   "angle": 4.446575556261438
+  },
+  {
+   "group_id": "reset_765500031",
+   "reset_seed": 765500031,
+   "policy_seed": 2012846325,
+   "start_step": 18,
+   "angle": 4.551486408033445
+  },
+  {
+   "group_id": "reset_271449221",
+   "reset_seed": 271449221,
+   "policy_seed": 248836502,
+   "start_step": 10,
+   "angle": 0.9251734346655978
+  },
+  {
+   "group_id": "reset_983157449",
+   "reset_seed": 983157449,
+   "policy_seed": 1930459409,
+   "start_step": 14,
+   "angle": 3.081568889881722
+  },
+  {
+   "group_id": "reset_1201965820",
+   "reset_seed": 1201965820,
+   "policy_seed": 2105203231,
+   "start_step": 8,
+   "angle": 2.5025116328457937
+  },
+  {
+   "group_id": "reset_2053475383",
+   "reset_seed": 2053475383,
+   "policy_seed": 895925177,
+   "start_step": 17,
+   "angle": 3.9241386651544925
+  },
+  {
+   "group_id": "reset_2061939488",
+   "reset_seed": 2061939488,
+   "policy_seed": 1032364989,
+   "start_step": 17,
+   "angle": 3.4244492032787752
+  },
+  {
+   "group_id": "reset_1399980705",
+   "reset_seed": 1399980705,
+   "policy_seed": 982345225,
+   "start_step": 13,
+   "angle": 0.08725652358347782
+  },
+  {
+   "group_id": "reset_591519725",
+   "reset_seed": 591519725,
+   "policy_seed": 663118606,
+   "start_step": 13,
+   "angle": 1.3652226250162638
+  },
+  {
+   "group_id": "reset_1091941002",
+   "reset_seed": 1091941002,
+   "policy_seed": 1270269628,
+   "start_step": 16,
+   "angle": 0.16930904589576198
+  },
+  {
+   "group_id": "reset_1770363575",
+   "reset_seed": 1770363575,
+   "policy_seed": 1985772588,
+   "start_step": 14,
+   "angle": 1.6196380412464368
+  },
+  {
+   "group_id": "reset_906632804",
+   "reset_seed": 906632804,
+   "policy_seed": 1462204206,
+   "start_step": 12,
+   "angle": 3.071618106701578
+  },
+  {
+   "group_id": "reset_1514136025",
+   "reset_seed": 1514136025,
+   "policy_seed": 64894071,
+   "start_step": 9,
+   "angle": 1.7968814902654762
+  },
+  {
+   "group_id": "reset_699254784",
+   "reset_seed": 699254784,
+   "policy_seed": 1204229182,
+   "start_step": 8,
+   "angle": 1.5457818398978889
+  },
+  {
+   "group_id": "reset_2140565458",
+   "reset_seed": 2140565458,
+   "policy_seed": 330108703,
+   "start_step": 18,
+   "angle": 2.702159940665949
+  },
+  {
+   "group_id": "reset_256223411",
+   "reset_seed": 256223411,
+   "policy_seed": 927233295,
+   "start_step": 15,
+   "angle": 2.0618963880302883
+  },
+  {
+   "group_id": "reset_2060498975",
+   "reset_seed": 2060498975,
+   "policy_seed": 160227439,
+   "start_step": 17,
+   "angle": 1.6181265539447398
+  },
+  {
+   "group_id": "reset_1812195073",
+   "reset_seed": 1812195073,
+   "policy_seed": 1471811023,
+   "start_step": 12,
+   "angle": 5.530704456847683
+  },
+  {
+   "group_id": "reset_305141313",
+   "reset_seed": 305141313,
+   "policy_seed": 785063137,
+   "start_step": 12,
+   "angle": 2.843023704405289
+  },
+  {
+   "group_id": "reset_717849892",
+   "reset_seed": 717849892,
+   "policy_seed": 1289890546,
+   "start_step": 17,
+   "angle": 0.941695694291117
+  },
+  {
+   "group_id": "reset_1394744205",
+   "reset_seed": 1394744205,
+   "policy_seed": 256068717,
+   "start_step": 16,
+   "angle": 3.2146121407239487
+  },
+  {
+   "group_id": "reset_618655525",
+   "reset_seed": 618655525,
+   "policy_seed": 459245606,
+   "start_step": 17,
+   "angle": 5.295011188472621
+  },
+  {
+   "group_id": "reset_919134631",
+   "reset_seed": 919134631,
+   "policy_seed": 1111338646,
+   "start_step": 11,
+   "angle": 4.285626515035707
+  },
+  {
+   "group_id": "reset_716451074",
+   "reset_seed": 716451074,
+   "policy_seed": 1428252620,
+   "start_step": 17,
+   "angle": 2.303144551642585
+  },
+  {
+   "group_id": "reset_1089186468",
+   "reset_seed": 1089186468,
+   "policy_seed": 1729160608,
+   "start_step": 14,
+   "angle": 5.08159822829253
+  },
+  {
+   "group_id": "reset_792100216",
+   "reset_seed": 792100216,
+   "policy_seed": 1064585582,
+   "start_step": 9,
+   "angle": 0.6430496670430027
+  }
+ ]
+}

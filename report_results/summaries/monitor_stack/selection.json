@@ -1,0 +1,92 @@
+{
+ "selected": [
+  {
+   "variant": "prediction_error_calls14",
+   "target_calls": 14,
+   "kind": "prediction_error",
+   "threshold": null,
+   "source_variant": "fixed_k15",
+   "reproduces_k15": true,
+   "validation_success": 112,
+   "validation_mean_calls": 14.0
+  },
+  {
+   "variant": "prediction_error_calls20",
+   "target_calls": 20,
+   "kind": "prediction_error",
+   "threshold": 1.0,
+   "source_variant": "prediction_error_1",
+   "reproduces_k15": false,
+   "validation_success": 113,
+   "validation_mean_calls": 19.958333333333332
+  },
+  {
+   "variant": "prediction_error_calls25",
+   "target_calls": 25,
+   "kind": "prediction_error",
+   "threshold": 0.75,
+   "source_variant": "prediction_error_0.75",
+   "reproduces_k15": false,
+   "validation_success": 107,
+   "validation_mean_calls": 23.116666666666667
+  },
+  {
+   "variant": "acceleration_calls14",
+   "target_calls": 14,
+   "kind": "acceleration",
+   "threshold": 0.003,
+   "source_variant": "acceleration_0.003",
+   "reproduces_k15": false,
+   "validation_success": 112,
+   "validation_mean_calls": 15.183333333333334
+  },
+  {
+   "variant": "acceleration_calls25",
+   "target_calls": 25,
+   "kind": "acceleration",
+   "threshold": 0.001,
+   "source_variant": "acceleration_0.001",
+   "reproduces_k15": false,
+   "validation_success": 110,
+   "validation_mean_calls": 25.891666666666666
+  }
+ ],
+ "bands": [
+  {
+   "kind": "prediction_error",
+   "target_calls": 14,
+   "matching_candidates": 4
+  },
+  {
+   "kind": "prediction_error",
+   "target_calls": 20,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "prediction_error",
+   "target_calls": 25,
+   "matching_candidates": 1
+  },
+  {
+   "kind": "acceleration",
+   "target_calls": 14,
+   "matching_candidates": 2
+  },
+  {
+   "kind": "acceleration",
+   "target_calls": 20,
+   "matching_candidates": 0
+  },
+  {
+   "kind": "acceleration",
+   "target_calls": 25,
+   "matching_candidates": 1
+  }
+ ],
+ "rule": "For each trigger and target 14/20/25 calls (fixed K15/K10/K8), require mean calls in [0.9*target, 1.1*target]; minimize mean capped time to goal, then maximize final success, then minimize calls, then prefer disabled/higher threshold. Omit a band if no candidate fits.",
+ "selected_at_utc": "2026-11-03T09:52:03.014211+00:00",
+ "predictor_sha256": "b80705bb46dffb542e74b276209f4f3b8a566da0d51afe28da1ae92d868d9936",
+ "validation_sha256": "f518edbe3a4284f424223968741bad489b6136d54b692ce1416da785a47cc3a5",
+ "metadata_sha256": "56fda4892d2aad31884f46d99acfe3c97303d7b4ab1c30eabf9f350435239a4f",
+ "disabled_candidate": "Reuse fixed K15 success and call counts; final test measures monitor overhead directly"
+}

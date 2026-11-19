@@ -1,0 +1,305 @@
+{
+ "seed": 389801,
+ "policy": [
+  "checkpoints/liftpeg/policy_120k/best_ddim10.pt",
+  "checkpoints/liftpeg/policy_01_recovery/last.pt",
+  "checkpoints/liftpeg/policy_02_recovery_round2/best.pt",
+  "checkpoints/liftpeg/policy_02_recovery_round2/last.pt"
+ ],
+ "horizon": 250,
+ "chunks": [
+  8,
+  15
+ ],
+ "forces": [
+  0.0,
+  3.0,
+  4.0
+ ],
+ "onset": [
+  8,
+  18
+ ],
+ "groups": [
+  {
+   "group_id": "reset_1427250861",
+   "reset_seed": 1427250861,
+   "policy_seed": 836582426,
+   "start_step": 12,
+   "angle": 4.286868757682781
+  },
+  {
+   "group_id": "reset_1129605819",
+   "reset_seed": 1129605819,
+   "policy_seed": 908530282,
+   "start_step": 18,
+   "angle": 5.113337944678266
+  },
+  {
+   "group_id": "reset_1229649176",
+   "reset_seed": 1229649176,
+   "policy_seed": 1951576586,
+   "start_step": 14,
+   "angle": 0.3331448580278522
+  },
+  {
+   "group_id": "reset_1316385693",
+   "reset_seed": 1316385693,
+   "policy_seed": 1881322200,
+   "start_step": 18,
+   "angle": 5.0893040542378225
+  },
+  {
+   "group_id": "reset_2120615195",
+   "reset_seed": 2120615195,
+   "policy_seed": 624315993,
+   "start_step": 15,
+   "angle": 1.0551131964373541
+  },
+  {
+   "group_id": "reset_980824800",
+   "reset_seed": 980824800,
+   "policy_seed": 670902677,
+   "start_step": 14,
+   "angle": 4.046891935299081
+  },
+  {
+   "group_id": "reset_1620012470",
+   "reset_seed": 1620012470,
+   "policy_seed": 2078448223,
+   "start_step": 12,
+   "angle": 4.1470115692892
+  },
+  {
+   "group_id": "reset_1588436112",
+   "reset_seed": 1588436112,
+   "policy_seed": 300835923,
+   "start_step": 8,
+   "angle": 1.0256179499295137
+  },
+  {
+   "group_id": "reset_229551577",
+   "reset_seed": 229551577,
+   "policy_seed": 132821635,
+   "start_step": 10,
+   "angle": 0.7063321592921467
+  },
+  {
+   "group_id": "reset_1752769819",
+   "reset_seed": 1752769819,
+   "policy_seed": 840984514,
+   "start_step": 14,
+   "angle": 4.333743887297256
+  },
+  {
+   "group_id": "reset_143783935",
+   "reset_seed": 143783935,
+   "policy_seed": 2107318722,
+   "start_step": 11,
+   "angle": 0.039923127562695226
+  },
+  {
+   "group_id": "reset_961928992",
+   "reset_seed": 961928992,
+   "policy_seed": 1802959822,
+   "start_step": 10,
+   "angle": 4.397507280722632
+  },
+  {
+   "group_id": "reset_76437151",
+   "reset_seed": 76437151,
+   "policy_seed": 473534077,
+   "start_step": 11,
+   "angle": 2.6488606071955294
+  },
+  {
+   "group_id": "reset_948825725",
+   "reset_seed": 948825725,
+   "policy_seed": 1164807663,
+   "start_step": 13,
+   "angle": 3.1240707346398047
+  },
+  {
+   "group_id": "reset_808987540",
+   "reset_seed": 808987540,
+   "policy_seed": 201850752,
+   "start_step": 14,
+   "angle": 4.338525507166518
+  },
+  {
+   "group_id": "reset_688243464",
+   "reset_seed": 688243464,
+   "policy_seed": 57893005,
+   "start_step": 11,
+   "angle": 4.224821582212206
+  },
+  {
+   "group_id": "reset_1532424234",
+   "reset_seed": 1532424234,
+   "policy_seed": 1113044709,
+   "start_step": 17,
+   "angle": 0.7381840995851736
+  },
+  {
+   "group_id": "reset_495078201",
+   "reset_seed": 495078201,
+   "policy_seed": 1437346264,
+   "start_step": 8,
+   "angle": 2.787135233615497
+  },
+  {
+   "group_id": "reset_1906984643",
+   "reset_seed": 1906984643,
+   "policy_seed": 1426464549,
+   "start_step": 11,
+   "angle": 2.048241382070473
+  },
+  {
+   "group_id": "reset_684104083",
+   "reset_seed": 684104083,
+   "policy_seed": 857444871,
+   "start_step": 15,
+   "angle": 2.679965689756815
+  },
+  {
+   "group_id": "reset_2006684204",
+   "reset_seed": 2006684204,
+   "policy_seed": 478082461,
+   "start_step": 17,
+   "angle": 2.6183357287680513
+  },
+  {
+   "group_id": "reset_2068358457",
+   "reset_seed": 2068358457,
+   "policy_seed": 1260891121,
+   "start_step": 17,
+   "angle": 2.0822878186024587
+  },
+  {
+   "group_id": "reset_387828275",
+   "reset_seed": 387828275,
+   "policy_seed": 180006936,
+   "start_step": 14,
+   "angle": 1.705010512648177
+  },
+  {
+   "group_id": "reset_957010196",
+   "reset_seed": 957010196,
+   "policy_seed": 1623805589,
+   "start_step": 11,
+   "angle": 5.440647026383132
+  },
+  {
+   "group_id": "reset_616495422",
+   "reset_seed": 616495422,
+   "policy_seed": 916547429,
+   "start_step": 13,
+   "angle": 6.113777212675153
+  },
+  {
+   "group_id": "reset_997866119",
+   "reset_seed": 997866119,
+   "policy_seed": 1967836059,
+   "start_step": 13,
+   "angle": 5.9423852411006965
+  },
+  {
+   "group_id": "reset_135612221",
+   "reset_seed": 135612221,
+   "policy_seed": 954957848,
+   "start_step": 9,
+   "angle": 3.10616707581325
+  },
+  {
+   "group_id": "reset_1304185121",
+   "reset_seed": 1304185121,
+   "policy_seed": 1022249559,
+   "start_step": 9,
+   "angle": 0.4249961109846088
+  },
+  {
+   "group_id": "reset_1238979597",
+   "reset_seed": 1238979597,
+   "policy_seed": 1027887287,
+   "start_step": 12,
+   "angle": 5.544545218303323
+  },
+  {
+   "group_id": "reset_217163736",
+   "reset_seed": 217163736,
+   "policy_seed": 195041020,
+   "start_step": 12,
+   "angle": 0.8482135992990771
+  },
+  {
+   "group_id": "reset_811375178",
+   "reset_seed": 811375178,
+   "policy_seed": 691405387,
+   "start_step": 17,
+   "angle": 3.4123291674738514
+  },
+  {
+   "group_id": "reset_1073002261",
+   "reset_seed": 1073002261,
+   "policy_seed": 1276807102,
+   "start_step": 14,
+   "angle": 0.16410995880390508
+  },
+  {
+   "group_id": "reset_730195389",
+   "reset_seed": 730195389,
+   "policy_seed": 292151508,
+   "start_step": 8,
+   "angle": 3.3742712228338188
+  },
+  {
+   "group_id": "reset_455644993",
+   "reset_seed": 455644993,
+   "policy_seed": 1261607615,
+   "start_step": 8,
+   "angle": 2.818967293498826
+  },
+  {
+   "group_id": "reset_2068479436",
+   "reset_seed": 2068479436,
+   "policy_seed": 333394695,
+   "start_step": 10,
+   "angle": 2.695694519777637
+  },
+  {
+   "group_id": "reset_2020049098",
+   "reset_seed": 2020049098,
+   "policy_seed": 422763948,
+   "start_step": 11,
+   "angle": 3.8692706380692643
+  },
+  {
+   "group_id": "reset_1706926628",
+   "reset_seed": 1706926628,
+   "policy_seed": 1584149616,
+   "start_step": 10,
+   "angle": 4.7275571610835225
+  },
+  {
+   "group_id": "reset_677098644",
+   "reset_seed": 677098644,
+   "policy_seed": 1031392400,
+   "start_step": 17,
+   "angle": 3.9278381389048196
+  },
+  {
+   "group_id": "reset_693729372",
+   "reset_seed": 693729372,
+   "policy_seed": 420867694,
+   "start_step": 17,
+   "angle": 3.691493209910639
+  },
+  {
+   "group_id": "reset_809672509",
+   "reset_seed": 809672509,
+   "policy_seed": 2139961579,
+   "start_step": 14,
+   "angle": 3.193464016676234
+  }
+ ]
+}
